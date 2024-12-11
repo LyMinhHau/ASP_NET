@@ -3,6 +3,62 @@
   "WorkspaceRootPath": "C:\\Study\\ASP.NET\\ChuyenDeASPNET\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{004D73C9-C61B-4848-A251-F92CEF533C2E}|ChuyenDeASPNET\\WebASP.csproj|c:\\study\\asp.net\\chuyendeaspnet\\chuyendeaspnet\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{004D73C9-C61B-4848-A251-F92CEF533C2E}|ChuyenDeASPNET\\WebASP.csproj|solutionrelative:chuyendeaspnet\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{004D73C9-C61B-4848-A251-F92CEF533C2E}|ChuyenDeASPNET\\WebASP.csproj|c:\\study\\asp.net\\chuyendeaspnet\\chuyendeaspnet\\models\\homemodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{004D73C9-C61B-4848-A251-F92CEF533C2E}|ChuyenDeASPNET\\WebASP.csproj|solutionrelative:chuyendeaspnet\\models\\homemodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{004D73C9-C61B-4848-A251-F92CEF533C2E}|ChuyenDeASPNET\\WebASP.csproj|c:\\study\\asp.net\\chuyendeaspnet\\chuyendeaspnet\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{004D73C9-C61B-4848-A251-F92CEF533C2E}|ChuyenDeASPNET\\WebASP.csproj|solutionrelative:chuyendeaspnet\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{004D73C9-C61B-4848-A251-F92CEF533C2E}|ChuyenDeASPNET\\WebASP.csproj|c:\\study\\asp.net\\chuyendeaspnet\\chuyendeaspnet\\controllers\\categorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{004D73C9-C61B-4848-A251-F92CEF533C2E}|ChuyenDeASPNET\\WebASP.csproj|solutionrelative:chuyendeaspnet\\controllers\\categorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{004D73C9-C61B-4848-A251-F92CEF533C2E}|ChuyenDeASPNET\\WebASP.csproj|c:\\study\\asp.net\\chuyendeaspnet\\chuyendeaspnet\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{004D73C9-C61B-4848-A251-F92CEF533C2E}|ChuyenDeASPNET\\WebASP.csproj|solutionrelative:chuyendeaspnet\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{004D73C9-C61B-4848-A251-F92CEF533C2E}|ChuyenDeASPNET\\ChuyenDeASPNET.csproj|C:\\Study\\ASP.NET\\ChuyenDeASPNET\\chuyendeaspnet\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{004D73C9-C61B-4848-A251-F92CEF533C2E}|ChuyenDeASPNET\\ChuyenDeASPNET.csproj|solutionrelative:chuyendeaspnet\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{004D73C9-C61B-4848-A251-F92CEF533C2E}|ChuyenDeASPNET\\WebASP.csproj|c:\\study\\asp.net\\chuyendeaspnet\\chuyendeaspnet\\context\\model1.context.tt||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{004D73C9-C61B-4848-A251-F92CEF533C2E}|ChuyenDeASPNET\\WebASP.csproj|solutionrelative:chuyendeaspnet\\context\\model1.context.tt||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{004D73C9-C61B-4848-A251-F92CEF533C2E}|ChuyenDeASPNET\\WebASP.csproj|c:\\study\\asp.net\\chuyendeaspnet\\chuyendeaspnet\\context\\model1.context.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{004D73C9-C61B-4848-A251-F92CEF533C2E}|ChuyenDeASPNET\\WebASP.csproj|solutionrelative:chuyendeaspnet\\context\\model1.context.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{004D73C9-C61B-4848-A251-F92CEF533C2E}|ChuyenDeASPNET\\WebASP.csproj|c:\\study\\asp.net\\chuyendeaspnet\\chuyendeaspnet\\context\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{004D73C9-C61B-4848-A251-F92CEF533C2E}|ChuyenDeASPNET\\WebASP.csproj|solutionrelative:chuyendeaspnet\\context\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{004D73C9-C61B-4848-A251-F92CEF533C2E}|ChuyenDeASPNET\\WebASP.csproj|c:\\study\\asp.net\\chuyendeaspnet\\chuyendeaspnet\\context\\model1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{004D73C9-C61B-4848-A251-F92CEF533C2E}|ChuyenDeASPNET\\WebASP.csproj|solutionrelative:chuyendeaspnet\\context\\model1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{004D73C9-C61B-4848-A251-F92CEF533C2E}|ChuyenDeASPNET\\ChuyenDeASPNET.csproj|C:\\Study\\ASP.NET\\ChuyenDeASPNET\\chuyendeaspnet\\controllers\\categorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{004D73C9-C61B-4848-A251-F92CEF533C2E}|ChuyenDeASPNET\\ChuyenDeASPNET.csproj|solutionrelative:chuyendeaspnet\\controllers\\categorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{004D73C9-C61B-4848-A251-F92CEF533C2E}|ChuyenDeASPNET\\ChuyenDeASPNET.csproj|C:\\Study\\ASP.NET\\ChuyenDeASPNET\\chuyendeaspnet\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{004D73C9-C61B-4848-A251-F92CEF533C2E}|ChuyenDeASPNET\\ChuyenDeASPNET.csproj|solutionrelative:chuyendeaspnet\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{004D73C9-C61B-4848-A251-F92CEF533C2E}|ChuyenDeASPNET\\ChuyenDeASPNET.csproj|C:\\Study\\ASP.NET\\ChuyenDeASPNET\\chuyendeaspnet\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{004D73C9-C61B-4848-A251-F92CEF533C2E}|ChuyenDeASPNET\\ChuyenDeASPNET.csproj|solutionrelative:chuyendeaspnet\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{004D73C9-C61B-4848-A251-F92CEF533C2E}|ChuyenDeASPNET\\WebASP.csproj|c:\\study\\asp.net\\chuyendeaspnet\\chuyendeaspnet\\context\\model1.edmx||{C99AEA30-8E36-4515-B76F-496F5A48A6AA}|",
+      "RelativeMoniker": "D:0:0:{004D73C9-C61B-4848-A251-F92CEF533C2E}|ChuyenDeASPNET\\WebASP.csproj|solutionrelative:chuyendeaspnet\\context\\model1.edmx||{C99AEA30-8E36-4515-B76F-496F5A48A6AA}|"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{004D73C9-C61B-4848-A251-F92CEF533C2E}|ChuyenDeASPNET\\WebASP.csproj|c:\\study\\asp.net\\chuyendeaspnet\\chuyendeaspnet\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{004D73C9-C61B-4848-A251-F92CEF533C2E}|ChuyenDeASPNET\\WebASP.csproj|solutionrelative:chuyendeaspnet\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
@@ -43,20 +99,12 @@
       "RelativeMoniker": "D:0:0:{004D73C9-C61B-4848-A251-F92CEF533C2E}|ChuyenDeASPNET\\ChuyenDeASPNET.csproj|solutionrelative:chuyendeaspnet\\views\\product\\productdetail.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{004D73C9-C61B-4848-A251-F92CEF533C2E}|ChuyenDeASPNET\\ChuyenDeASPNET.csproj|C:\\Study\\ASP.NET\\ChuyenDeASPNET\\chuyendeaspnet\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{004D73C9-C61B-4848-A251-F92CEF533C2E}|ChuyenDeASPNET\\ChuyenDeASPNET.csproj|solutionrelative:chuyendeaspnet\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{004D73C9-C61B-4848-A251-F92CEF533C2E}|ChuyenDeASPNET\\ChuyenDeASPNET.csproj|C:\\Study\\ASP.NET\\ChuyenDeASPNET\\chuyendeaspnet\\views\\user\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{004D73C9-C61B-4848-A251-F92CEF533C2E}|ChuyenDeASPNET\\ChuyenDeASPNET.csproj|solutionrelative:chuyendeaspnet\\views\\user\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{004D73C9-C61B-4848-A251-F92CEF533C2E}|ChuyenDeASPNET\\ChuyenDeASPNET.csproj|C:\\Study\\ASP.NET\\ChuyenDeASPNET\\chuyendeaspnet\\views\\user\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{004D73C9-C61B-4848-A251-F92CEF533C2E}|ChuyenDeASPNET\\ChuyenDeASPNET.csproj|solutionrelative:chuyendeaspnet\\views\\user\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{004D73C9-C61B-4848-A251-F92CEF533C2E}|ChuyenDeASPNET\\ChuyenDeASPNET.csproj|C:\\Study\\ASP.NET\\ChuyenDeASPNET\\chuyendeaspnet\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{004D73C9-C61B-4848-A251-F92CEF533C2E}|ChuyenDeASPNET\\ChuyenDeASPNET.csproj|solutionrelative:chuyendeaspnet\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{004D73C9-C61B-4848-A251-F92CEF533C2E}|ChuyenDeASPNET\\ChuyenDeASPNET.csproj|C:\\Study\\ASP.NET\\ChuyenDeASPNET\\chuyendeaspnet\\views\\category\\allcategory.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
@@ -73,14 +121,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{004D73C9-C61B-4848-A251-F92CEF533C2E}|ChuyenDeASPNET\\ChuyenDeASPNET.csproj|C:\\Study\\ASP.NET\\ChuyenDeASPNET\\chuyendeaspnet\\views\\category\\productbycategory.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{004D73C9-C61B-4848-A251-F92CEF533C2E}|ChuyenDeASPNET\\ChuyenDeASPNET.csproj|solutionrelative:chuyendeaspnet\\views\\category\\productbycategory.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{004D73C9-C61B-4848-A251-F92CEF533C2E}|ChuyenDeASPNET\\ChuyenDeASPNET.csproj|C:\\Study\\ASP.NET\\ChuyenDeASPNET\\chuyendeaspnet\\controllers\\categorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{004D73C9-C61B-4848-A251-F92CEF533C2E}|ChuyenDeASPNET\\ChuyenDeASPNET.csproj|solutionrelative:chuyendeaspnet\\controllers\\categorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{004D73C9-C61B-4848-A251-F92CEF533C2E}|ChuyenDeASPNET\\ChuyenDeASPNET.csproj|C:\\Study\\ASP.NET\\ChuyenDeASPNET\\chuyendeaspnet\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{004D73C9-C61B-4848-A251-F92CEF533C2E}|ChuyenDeASPNET\\ChuyenDeASPNET.csproj|solutionrelative:chuyendeaspnet\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -90,59 +130,37 @@
       "DocumentGroups": [
         {
           "DockedWidth": 474,
-          "SelectedChildIndex": 7,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Wishlist.cshtml",
-              "DocumentMoniker": "C:\\Study\\ASP.NET\\ChuyenDeASPNET\\ChuyenDeASPNET\\Views\\Profile\\Wishlist.cshtml",
-              "RelativeDocumentMoniker": "ChuyenDeASPNET\\Views\\Profile\\Wishlist.cshtml",
-              "ToolTip": "C:\\Study\\ASP.NET\\ChuyenDeASPNET\\ChuyenDeASPNET\\Views\\Profile\\Wishlist.cshtml",
-              "RelativeToolTip": "ChuyenDeASPNET\\Views\\Profile\\Wishlist.cshtml",
-              "ViewState": "AgIAACwAAAAAAAAAAAAswDoAAABkAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-12-04T08:13:32.49Z"
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "Address.cshtml",
-              "DocumentMoniker": "C:\\Study\\ASP.NET\\ChuyenDeASPNET\\ChuyenDeASPNET\\Views\\Profile\\Address.cshtml",
-              "RelativeDocumentMoniker": "ChuyenDeASPNET\\Views\\Profile\\Address.cshtml",
-              "ToolTip": "C:\\Study\\ASP.NET\\ChuyenDeASPNET\\ChuyenDeASPNET\\Views\\Profile\\Address.cshtml",
-              "RelativeToolTip": "ChuyenDeASPNET\\Views\\Profile\\Address.cshtml",
-              "ViewState": "AgIAAE0AAAAAAAAAAAAwwFUAAAAmAAAAAAAAAA==",
+              "Title": "HomeModel.cs",
+              "DocumentMoniker": "C:\\Study\\ASP.NET\\ChuyenDeASPNET\\ChuyenDeASPNET\\Models\\HomeModel.cs",
+              "RelativeDocumentMoniker": "ChuyenDeASPNET\\Models\\HomeModel.cs",
+              "ToolTip": "C:\\Study\\ASP.NET\\ChuyenDeASPNET\\ChuyenDeASPNET\\Models\\HomeModel.cs",
+              "RelativeToolTip": "ChuyenDeASPNET\\Models\\HomeModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-11T08:48:33.601Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Study\\ASP.NET\\ChuyenDeASPNET\\ChuyenDeASPNET\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "ChuyenDeASPNET\\Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Study\\ASP.NET\\ChuyenDeASPNET\\ChuyenDeASPNET\\Views\\Home\\Index.cshtml*",
+              "RelativeToolTip": "ChuyenDeASPNET\\Views\\Home\\Index.cshtml*",
+              "ViewState": "AgIAAMwAAAAAAAAAAAAwwN4AAAAdAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-12-04T08:13:32.644Z"
+              "WhenOpened": "2024-12-11T07:17:41.243Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Setting.cshtml",
-              "DocumentMoniker": "C:\\Study\\ASP.NET\\ChuyenDeASPNET\\ChuyenDeASPNET\\Views\\Profile\\Setting.cshtml",
-              "RelativeDocumentMoniker": "ChuyenDeASPNET\\Views\\Profile\\Setting.cshtml",
-              "ToolTip": "C:\\Study\\ASP.NET\\ChuyenDeASPNET\\ChuyenDeASPNET\\Views\\Profile\\Setting.cshtml",
-              "RelativeToolTip": "ChuyenDeASPNET\\Views\\Profile\\Setting.cshtml",
-              "ViewState": "AQIAAC4AAAAAAAAAAAAAADoAAABkAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002242|",
-              "WhenOpened": "2024-12-04T08:13:32.644Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "ProductDetail.cshtml",
-              "DocumentMoniker": "C:\\Study\\ASP.NET\\ChuyenDeASPNET\\ChuyenDeASPNET\\Views\\Product\\ProductDetail.cshtml",
-              "RelativeDocumentMoniker": "ChuyenDeASPNET\\Views\\Product\\ProductDetail.cshtml",
-              "ToolTip": "C:\\Study\\ASP.NET\\ChuyenDeASPNET\\ChuyenDeASPNET\\Views\\Product\\ProductDetail.cshtml",
-              "RelativeToolTip": "ChuyenDeASPNET\\Views\\Product\\ProductDetail.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABkAAAAZAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002242|",
-              "WhenOpened": "2024-12-04T08:13:32.644Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 21,
               "Title": "ProfileController.cs",
               "DocumentMoniker": "C:\\Study\\ASP.NET\\ChuyenDeASPNET\\ChuyenDeASPNET\\Controllers\\ProfileController.cs",
               "RelativeDocumentMoniker": "ChuyenDeASPNET\\Controllers\\ProfileController.cs",
@@ -154,7 +172,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 20,
               "Title": "Main.cshtml",
               "DocumentMoniker": "C:\\Study\\ASP.NET\\ChuyenDeASPNET\\ChuyenDeASPNET\\Views\\Profile\\Main.cshtml",
               "RelativeDocumentMoniker": "ChuyenDeASPNET\\Views\\Profile\\Main.cshtml",
@@ -166,92 +184,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Seller.cshtml",
-              "DocumentMoniker": "C:\\Study\\ASP.NET\\ChuyenDeASPNET\\ChuyenDeASPNET\\Views\\Profile\\Seller.cshtml",
-              "RelativeDocumentMoniker": "ChuyenDeASPNET\\Views\\Profile\\Seller.cshtml",
-              "ToolTip": "C:\\Study\\ASP.NET\\ChuyenDeASPNET\\ChuyenDeASPNET\\Views\\Profile\\Seller.cshtml",
-              "RelativeToolTip": "ChuyenDeASPNET\\Views\\Profile\\Seller.cshtml",
-              "ViewState": "AQIAACcAAAAAAAAAAAAqwDoAAABkAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002242|",
-              "WhenOpened": "2024-12-04T08:13:32.654Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "_Layout.cshtml",
-              "DocumentMoniker": "C:\\Study\\ASP.NET\\ChuyenDeASPNET\\ChuyenDeASPNET\\Views\\Shared\\_Layout.cshtml",
-              "RelativeDocumentMoniker": "ChuyenDeASPNET\\Views\\Shared\\_Layout.cshtml",
-              "ToolTip": "C:\\Study\\ASP.NET\\ChuyenDeASPNET\\ChuyenDeASPNET\\Views\\Shared\\_Layout.cshtml",
-              "RelativeToolTip": "ChuyenDeASPNET\\Views\\Shared\\_Layout.cshtml",
-              "ViewState": "AgIAABwAAAAAAAAAAAAAACsAAABFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-12-04T08:13:32.654Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Orders.cshtml",
-              "DocumentMoniker": "C:\\Study\\ASP.NET\\ChuyenDeASPNET\\ChuyenDeASPNET\\Views\\Profile\\Orders.cshtml",
-              "RelativeDocumentMoniker": "ChuyenDeASPNET\\Views\\Profile\\Orders.cshtml",
-              "ToolTip": "C:\\Study\\ASP.NET\\ChuyenDeASPNET\\ChuyenDeASPNET\\Views\\Profile\\Orders.cshtml",
-              "RelativeToolTip": "ChuyenDeASPNET\\Views\\Profile\\Orders.cshtml",
-              "ViewState": "AQIAACoAAAAAAAAAAAAAADoAAABkAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002242|",
-              "WhenOpened": "2024-12-04T08:13:32.644Z"
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 12,
-              "Title": "Register.cshtml",
-              "DocumentMoniker": "C:\\Study\\ASP.NET\\ChuyenDeASPNET\\ChuyenDeASPNET\\Views\\User\\Register.cshtml",
-              "RelativeDocumentMoniker": "ChuyenDeASPNET\\Views\\User\\Register.cshtml",
-              "ToolTip": "C:\\Study\\ASP.NET\\ChuyenDeASPNET\\ChuyenDeASPNET\\Views\\User\\Register.cshtml",
-              "RelativeToolTip": "ChuyenDeASPNET\\Views\\User\\Register.cshtml",
-              "ViewState": "AQIAAFoAAAAAAAAAAAAAAGoAAABqAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002242|",
-              "WhenOpened": "2024-12-04T08:13:32.654Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Study\\ASP.NET\\ChuyenDeASPNET\\ChuyenDeASPNET\\Views\\Home\\Index.cshtml",
-              "RelativeDocumentMoniker": "ChuyenDeASPNET\\Views\\Home\\Index.cshtml",
-              "ToolTip": "C:\\Study\\ASP.NET\\ChuyenDeASPNET\\ChuyenDeASPNET\\Views\\Home\\Index.cshtml",
-              "RelativeToolTip": "ChuyenDeASPNET\\Views\\Home\\Index.cshtml",
-              "ViewState": "AQIAAB0AAAAAAAAAAAAawCwAAABGAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002242|",
-              "WhenOpened": "2024-12-04T08:13:32.654Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "Cart.cshtml",
-              "DocumentMoniker": "C:\\Study\\ASP.NET\\ChuyenDeASPNET\\ChuyenDeASPNET\\Views\\Shopping\\Cart.cshtml",
-              "RelativeDocumentMoniker": "ChuyenDeASPNET\\Views\\Shopping\\Cart.cshtml",
-              "ToolTip": "C:\\Study\\ASP.NET\\ChuyenDeASPNET\\ChuyenDeASPNET\\Views\\Shopping\\Cart.cshtml",
-              "RelativeToolTip": "ChuyenDeASPNET\\Views\\Shopping\\Cart.cshtml",
-              "ViewState": "AQIAAKMAAAAAAAAAAAAqwLsAAAA0AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002242|",
-              "WhenOpened": "2024-12-04T08:13:32.654Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "ProductByCategory.cshtml",
-              "DocumentMoniker": "C:\\Study\\ASP.NET\\ChuyenDeASPNET\\ChuyenDeASPNET\\Views\\Category\\ProductByCategory.cshtml",
-              "RelativeDocumentMoniker": "ChuyenDeASPNET\\Views\\Category\\ProductByCategory.cshtml",
-              "ToolTip": "C:\\Study\\ASP.NET\\ChuyenDeASPNET\\ChuyenDeASPNET\\Views\\Category\\ProductByCategory.cshtml",
-              "RelativeToolTip": "ChuyenDeASPNET\\Views\\Category\\ProductByCategory.cshtml",
-              "ViewState": "AQIAAOoBAAAAAAAAAAAjwPYBAABMAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002242|",
-              "WhenOpened": "2024-12-04T08:13:32.654Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
               "Title": "HomeController.cs",
               "DocumentMoniker": "C:\\Study\\ASP.NET\\ChuyenDeASPNET\\ChuyenDeASPNET\\Controllers\\HomeController.cs",
               "RelativeDocumentMoniker": "ChuyenDeASPNET\\Controllers\\HomeController.cs",
@@ -263,55 +196,122 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "Login.cshtml",
-              "DocumentMoniker": "C:\\Study\\ASP.NET\\ChuyenDeASPNET\\ChuyenDeASPNET\\Views\\User\\Login.cshtml",
-              "RelativeDocumentMoniker": "ChuyenDeASPNET\\Views\\User\\Login.cshtml",
-              "ToolTip": "C:\\Study\\ASP.NET\\ChuyenDeASPNET\\ChuyenDeASPNET\\Views\\User\\Login.cshtml",
-              "RelativeToolTip": "ChuyenDeASPNET\\Views\\User\\Login.cshtml",
-              "ViewState": "AQIAAC4AAAAAAAAAAAAAADsAAAAwAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002242|",
-              "WhenOpened": "2024-12-04T08:13:32.658Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "ShoppingController.cs",
-              "DocumentMoniker": "C:\\Study\\ASP.NET\\ChuyenDeASPNET\\ChuyenDeASPNET\\Controllers\\ShoppingController.cs",
-              "RelativeDocumentMoniker": "ChuyenDeASPNET\\Controllers\\ShoppingController.cs",
-              "ToolTip": "C:\\Study\\ASP.NET\\ChuyenDeASPNET\\ChuyenDeASPNET\\Controllers\\ShoppingController.cs",
-              "RelativeToolTip": "ChuyenDeASPNET\\Controllers\\ShoppingController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAeAAAA",
+              "DocumentIndex": 2,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Study\\ASP.NET\\ChuyenDeASPNET\\ChuyenDeASPNET\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "ChuyenDeASPNET\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Study\\ASP.NET\\ChuyenDeASPNET\\ChuyenDeASPNET\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "ChuyenDeASPNET\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABYAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-04T08:13:32.66Z"
+              "WhenOpened": "2024-12-11T07:17:41.329Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "AllCategory.cshtml",
-              "DocumentMoniker": "C:\\Study\\ASP.NET\\ChuyenDeASPNET\\ChuyenDeASPNET\\Views\\Category\\AllCategory.cshtml",
-              "RelativeDocumentMoniker": "ChuyenDeASPNET\\Views\\Category\\AllCategory.cshtml",
-              "ToolTip": "C:\\Study\\ASP.NET\\ChuyenDeASPNET\\ChuyenDeASPNET\\Views\\Category\\AllCategory.cshtml",
-              "RelativeToolTip": "ChuyenDeASPNET\\Views\\Category\\AllCategory.cshtml",
-              "ViewState": "AQIAAAoAAAAAAAAAAAAAACIAAAAHAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002242|",
-              "WhenOpened": "2024-12-04T08:13:32.66Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "UserController.cs",
-              "DocumentMoniker": "C:\\Study\\ASP.NET\\ChuyenDeASPNET\\ChuyenDeASPNET\\Controllers\\UserController.cs",
-              "RelativeDocumentMoniker": "ChuyenDeASPNET\\Controllers\\UserController.cs",
-              "ToolTip": "C:\\Study\\ASP.NET\\ChuyenDeASPNET\\ChuyenDeASPNET\\Controllers\\UserController.cs",
-              "RelativeToolTip": "ChuyenDeASPNET\\Controllers\\UserController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAABAAAA",
+              "DocumentIndex": 5,
+              "Title": "ProductController.cs",
+              "DocumentMoniker": "C:\\Study\\ASP.NET\\ChuyenDeASPNET\\ChuyenDeASPNET\\Controllers\\ProductController.cs",
+              "RelativeDocumentMoniker": "ChuyenDeASPNET\\Controllers\\ProductController.cs",
+              "ToolTip": "C:\\Study\\ASP.NET\\ChuyenDeASPNET\\ChuyenDeASPNET\\Controllers\\ProductController.cs",
+              "RelativeToolTip": "ChuyenDeASPNET\\Controllers\\ProductController.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAAAwAAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-12-04T08:13:32.662Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 3,
+              "Title": "CategoryController.cs",
+              "DocumentMoniker": "C:\\Study\\ASP.NET\\ChuyenDeASPNET\\ChuyenDeASPNET\\Controllers\\CategoryController.cs",
+              "RelativeDocumentMoniker": "ChuyenDeASPNET\\Controllers\\CategoryController.cs",
+              "ToolTip": "C:\\Study\\ASP.NET\\ChuyenDeASPNET\\ChuyenDeASPNET\\Controllers\\CategoryController.cs",
+              "RelativeToolTip": "ChuyenDeASPNET\\Controllers\\CategoryController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-11T07:17:41.367Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ProductController.cs",
+              "DocumentMoniker": "C:\\Study\\ASP.NET\\ChuyenDeASPNET\\ChuyenDeASPNET\\Controllers\\ProductController.cs",
+              "RelativeDocumentMoniker": "ChuyenDeASPNET\\Controllers\\ProductController.cs",
+              "ToolTip": "C:\\Study\\ASP.NET\\ChuyenDeASPNET\\ChuyenDeASPNET\\Controllers\\ProductController.cs",
+              "RelativeToolTip": "ChuyenDeASPNET\\Controllers\\ProductController.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAwAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-11T07:17:41.371Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Model1.Context.tt",
+              "DocumentMoniker": "C:\\Study\\ASP.NET\\ChuyenDeASPNET\\ChuyenDeASPNET\\Context\\Model1.Context.tt",
+              "RelativeDocumentMoniker": "ChuyenDeASPNET\\Context\\Model1.Context.tt",
+              "ToolTip": "C:\\Study\\ASP.NET\\ChuyenDeASPNET\\ChuyenDeASPNET\\Context\\Model1.Context.tt",
+              "RelativeToolTip": "ChuyenDeASPNET\\Context\\Model1.Context.tt",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
+              "WhenOpened": "2024-12-11T08:25:35.198Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Model1.edmx [Diagram1]",
+              "DocumentMoniker": "C:\\Study\\ASP.NET\\ChuyenDeASPNET\\ChuyenDeASPNET\\Context\\Model1.edmx",
+              "RelativeDocumentMoniker": "ChuyenDeASPNET\\Context\\Model1.edmx",
+              "ToolTip": "C:\\Study\\ASP.NET\\ChuyenDeASPNET\\ChuyenDeASPNET\\Context\\Model1.edmx [Diagram1]",
+              "RelativeToolTip": "ChuyenDeASPNET\\Context\\Model1.edmx [Diagram1]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001116|",
+              "WhenOpened": "2024-12-11T07:17:17.499Z",
+              "EditorCaption": " [Diagram1]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Category.cs",
+              "DocumentMoniker": "C:\\Study\\ASP.NET\\ChuyenDeASPNET\\ChuyenDeASPNET\\Context\\Category.cs",
+              "RelativeDocumentMoniker": "ChuyenDeASPNET\\Context\\Category.cs",
+              "ToolTip": "C:\\Study\\ASP.NET\\ChuyenDeASPNET\\ChuyenDeASPNET\\Context\\Category.cs",
+              "RelativeToolTip": "ChuyenDeASPNET\\Context\\Category.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-11T07:54:22.928Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Model1.Context.cs",
+              "DocumentMoniker": "C:\\Study\\ASP.NET\\ChuyenDeASPNET\\ChuyenDeASPNET\\Context\\Model1.Context.cs",
+              "RelativeDocumentMoniker": "ChuyenDeASPNET\\Context\\Model1.Context.cs",
+              "ToolTip": "C:\\Study\\ASP.NET\\ChuyenDeASPNET\\ChuyenDeASPNET\\Context\\Model1.Context.cs",
+              "RelativeToolTip": "ChuyenDeASPNET\\Context\\Model1.Context.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-11T07:18:25.212Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Model1.cs",
+              "DocumentMoniker": "C:\\Study\\ASP.NET\\ChuyenDeASPNET\\ChuyenDeASPNET\\Context\\Model1.cs",
+              "RelativeDocumentMoniker": "ChuyenDeASPNET\\Context\\Model1.cs",
+              "ToolTip": "C:\\Study\\ASP.NET\\ChuyenDeASPNET\\ChuyenDeASPNET\\Context\\Model1.cs",
+              "RelativeToolTip": "ChuyenDeASPNET\\Context\\Model1.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-11T08:08:46.56Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
               "Title": "CategoryController.cs",
               "DocumentMoniker": "C:\\Study\\ASP.NET\\ChuyenDeASPNET\\ChuyenDeASPNET\\Controllers\\CategoryController.cs",
               "RelativeDocumentMoniker": "ChuyenDeASPNET\\Controllers\\CategoryController.cs",
@@ -323,13 +323,182 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Study\\ASP.NET\\ChuyenDeASPNET\\ChuyenDeASPNET\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "ChuyenDeASPNET\\Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Study\\ASP.NET\\ChuyenDeASPNET\\ChuyenDeASPNET\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "ChuyenDeASPNET\\Views\\Home\\Index.cshtml",
+              "ViewState": "AQIAAB0AAAAAAAAAAAAawCwAAABGAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002242|",
+              "WhenOpened": "2024-12-04T08:13:32.654Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "ProductDetail.cshtml",
+              "DocumentMoniker": "C:\\Study\\ASP.NET\\ChuyenDeASPNET\\ChuyenDeASPNET\\Views\\Product\\ProductDetail.cshtml",
+              "RelativeDocumentMoniker": "ChuyenDeASPNET\\Views\\Product\\ProductDetail.cshtml",
+              "ToolTip": "C:\\Study\\ASP.NET\\ChuyenDeASPNET\\ChuyenDeASPNET\\Views\\Product\\ProductDetail.cshtml",
+              "RelativeToolTip": "ChuyenDeASPNET\\Views\\Product\\ProductDetail.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABkAAAAZAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002242|",
+              "WhenOpened": "2024-12-04T08:13:32.644Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "Setting.cshtml",
+              "DocumentMoniker": "C:\\Study\\ASP.NET\\ChuyenDeASPNET\\ChuyenDeASPNET\\Views\\Profile\\Setting.cshtml",
+              "RelativeDocumentMoniker": "ChuyenDeASPNET\\Views\\Profile\\Setting.cshtml",
+              "ToolTip": "C:\\Study\\ASP.NET\\ChuyenDeASPNET\\ChuyenDeASPNET\\Views\\Profile\\Setting.cshtml",
+              "RelativeToolTip": "ChuyenDeASPNET\\Views\\Profile\\Setting.cshtml",
+              "ViewState": "AQIAAC4AAAAAAAAAAAAAADoAAABkAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002242|",
+              "WhenOpened": "2024-12-04T08:13:32.644Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Address.cshtml",
+              "DocumentMoniker": "C:\\Study\\ASP.NET\\ChuyenDeASPNET\\ChuyenDeASPNET\\Views\\Profile\\Address.cshtml",
+              "RelativeDocumentMoniker": "ChuyenDeASPNET\\Views\\Profile\\Address.cshtml",
+              "ToolTip": "C:\\Study\\ASP.NET\\ChuyenDeASPNET\\ChuyenDeASPNET\\Views\\Profile\\Address.cshtml",
+              "RelativeToolTip": "ChuyenDeASPNET\\Views\\Profile\\Address.cshtml",
+              "ViewState": "AgIAAE0AAAAAAAAAAAAwwFUAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-04T08:13:32.644Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Wishlist.cshtml",
+              "DocumentMoniker": "C:\\Study\\ASP.NET\\ChuyenDeASPNET\\ChuyenDeASPNET\\Views\\Profile\\Wishlist.cshtml",
+              "RelativeDocumentMoniker": "ChuyenDeASPNET\\Views\\Profile\\Wishlist.cshtml",
+              "ToolTip": "C:\\Study\\ASP.NET\\ChuyenDeASPNET\\ChuyenDeASPNET\\Views\\Profile\\Wishlist.cshtml",
+              "RelativeToolTip": "ChuyenDeASPNET\\Views\\Profile\\Wishlist.cshtml",
+              "ViewState": "AgIAACwAAAAAAAAAAAAswDoAAABkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-04T08:13:32.49Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "Seller.cshtml",
+              "DocumentMoniker": "C:\\Study\\ASP.NET\\ChuyenDeASPNET\\ChuyenDeASPNET\\Views\\Profile\\Seller.cshtml",
+              "RelativeDocumentMoniker": "ChuyenDeASPNET\\Views\\Profile\\Seller.cshtml",
+              "ToolTip": "C:\\Study\\ASP.NET\\ChuyenDeASPNET\\ChuyenDeASPNET\\Views\\Profile\\Seller.cshtml",
+              "RelativeToolTip": "ChuyenDeASPNET\\Views\\Profile\\Seller.cshtml",
+              "ViewState": "AQIAACcAAAAAAAAAAAAqwDoAAABkAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002242|",
+              "WhenOpened": "2024-12-04T08:13:32.654Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Study\\ASP.NET\\ChuyenDeASPNET\\ChuyenDeASPNET\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "ChuyenDeASPNET\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Study\\ASP.NET\\ChuyenDeASPNET\\ChuyenDeASPNET\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "ChuyenDeASPNET\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAADEAAAAAAAAAAAAAADoAAABNAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-04T08:13:32.654Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 19,
-              "Title": "ProductController.cs",
-              "DocumentMoniker": "C:\\Study\\ASP.NET\\ChuyenDeASPNET\\ChuyenDeASPNET\\Controllers\\ProductController.cs",
-              "RelativeDocumentMoniker": "ChuyenDeASPNET\\Controllers\\ProductController.cs",
-              "ToolTip": "C:\\Study\\ASP.NET\\ChuyenDeASPNET\\ChuyenDeASPNET\\Controllers\\ProductController.cs",
-              "RelativeToolTip": "ChuyenDeASPNET\\Controllers\\ProductController.cs",
-              "ViewState": "AQIAAAYAAAAAAAAAAAAAAAwAAAAJAAAA",
+              "Title": "Orders.cshtml",
+              "DocumentMoniker": "C:\\Study\\ASP.NET\\ChuyenDeASPNET\\ChuyenDeASPNET\\Views\\Profile\\Orders.cshtml",
+              "RelativeDocumentMoniker": "ChuyenDeASPNET\\Views\\Profile\\Orders.cshtml",
+              "ToolTip": "C:\\Study\\ASP.NET\\ChuyenDeASPNET\\ChuyenDeASPNET\\Views\\Profile\\Orders.cshtml",
+              "RelativeToolTip": "ChuyenDeASPNET\\Views\\Profile\\Orders.cshtml",
+              "ViewState": "AQIAACoAAAAAAAAAAAAAADoAAABkAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002242|",
+              "WhenOpened": "2024-12-04T08:13:32.644Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "Register.cshtml",
+              "DocumentMoniker": "C:\\Study\\ASP.NET\\ChuyenDeASPNET\\ChuyenDeASPNET\\Views\\User\\Register.cshtml",
+              "RelativeDocumentMoniker": "ChuyenDeASPNET\\Views\\User\\Register.cshtml",
+              "ToolTip": "C:\\Study\\ASP.NET\\ChuyenDeASPNET\\ChuyenDeASPNET\\Views\\User\\Register.cshtml",
+              "RelativeToolTip": "ChuyenDeASPNET\\Views\\User\\Register.cshtml",
+              "ViewState": "AQIAAFoAAAAAAAAAAAAAAGoAAABqAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002242|",
+              "WhenOpened": "2024-12-04T08:13:32.654Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "Cart.cshtml",
+              "DocumentMoniker": "C:\\Study\\ASP.NET\\ChuyenDeASPNET\\ChuyenDeASPNET\\Views\\Shopping\\Cart.cshtml",
+              "RelativeDocumentMoniker": "ChuyenDeASPNET\\Views\\Shopping\\Cart.cshtml",
+              "ToolTip": "C:\\Study\\ASP.NET\\ChuyenDeASPNET\\ChuyenDeASPNET\\Views\\Shopping\\Cart.cshtml",
+              "RelativeToolTip": "ChuyenDeASPNET\\Views\\Shopping\\Cart.cshtml",
+              "ViewState": "AQIAAKMAAAAAAAAAAAAqwLsAAAA0AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002242|",
+              "WhenOpened": "2024-12-04T08:13:32.654Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "ProductByCategory.cshtml",
+              "DocumentMoniker": "C:\\Study\\ASP.NET\\ChuyenDeASPNET\\ChuyenDeASPNET\\Views\\Category\\ProductByCategory.cshtml",
+              "RelativeDocumentMoniker": "ChuyenDeASPNET\\Views\\Category\\ProductByCategory.cshtml",
+              "ToolTip": "C:\\Study\\ASP.NET\\ChuyenDeASPNET\\ChuyenDeASPNET\\Views\\Category\\ProductByCategory.cshtml",
+              "RelativeToolTip": "ChuyenDeASPNET\\Views\\Category\\ProductByCategory.cshtml",
+              "ViewState": "AQIAAOoBAAAAAAAAAAAjwPYBAABMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002242|",
+              "WhenOpened": "2024-12-04T08:13:32.654Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "Login.cshtml",
+              "DocumentMoniker": "C:\\Study\\ASP.NET\\ChuyenDeASPNET\\ChuyenDeASPNET\\Views\\User\\Login.cshtml",
+              "RelativeDocumentMoniker": "ChuyenDeASPNET\\Views\\User\\Login.cshtml",
+              "ToolTip": "C:\\Study\\ASP.NET\\ChuyenDeASPNET\\ChuyenDeASPNET\\Views\\User\\Login.cshtml",
+              "RelativeToolTip": "ChuyenDeASPNET\\Views\\User\\Login.cshtml",
+              "ViewState": "AQIAAC4AAAAAAAAAAAAAADsAAAAwAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002242|",
+              "WhenOpened": "2024-12-04T08:13:32.658Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "ShoppingController.cs",
+              "DocumentMoniker": "C:\\Study\\ASP.NET\\ChuyenDeASPNET\\ChuyenDeASPNET\\Controllers\\ShoppingController.cs",
+              "RelativeDocumentMoniker": "ChuyenDeASPNET\\Controllers\\ShoppingController.cs",
+              "ToolTip": "C:\\Study\\ASP.NET\\ChuyenDeASPNET\\ChuyenDeASPNET\\Controllers\\ShoppingController.cs",
+              "RelativeToolTip": "ChuyenDeASPNET\\Controllers\\ShoppingController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAeAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-04T08:13:32.66Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "AllCategory.cshtml",
+              "DocumentMoniker": "C:\\Study\\ASP.NET\\ChuyenDeASPNET\\ChuyenDeASPNET\\Views\\Category\\AllCategory.cshtml",
+              "RelativeDocumentMoniker": "ChuyenDeASPNET\\Views\\Category\\AllCategory.cshtml",
+              "ToolTip": "C:\\Study\\ASP.NET\\ChuyenDeASPNET\\ChuyenDeASPNET\\Views\\Category\\AllCategory.cshtml",
+              "RelativeToolTip": "ChuyenDeASPNET\\Views\\Category\\AllCategory.cshtml",
+              "ViewState": "AQIAAAoAAAAAAAAAAAAAACIAAAAHAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002242|",
+              "WhenOpened": "2024-12-04T08:13:32.66Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "UserController.cs",
+              "DocumentMoniker": "C:\\Study\\ASP.NET\\ChuyenDeASPNET\\ChuyenDeASPNET\\Controllers\\UserController.cs",
+              "RelativeDocumentMoniker": "ChuyenDeASPNET\\Controllers\\UserController.cs",
+              "ToolTip": "C:\\Study\\ASP.NET\\ChuyenDeASPNET\\ChuyenDeASPNET\\Controllers\\UserController.cs",
+              "RelativeToolTip": "ChuyenDeASPNET\\Controllers\\UserController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAABAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-12-04T08:13:32.662Z"
             }
