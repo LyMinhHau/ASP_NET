@@ -2,102 +2,80 @@
 <Schema Namespace="ASPNETModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
   <EntityType Name="Brand">
     <Key>
-      <PropertyRef Name="BrandID" />
+      <PropertyRef Name="Id" />
     </Key>
-    <Property Name="BrandID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
-    <Property Name="BrandName" Type="String" MaxLength="255" FixedLength="false" Unicode="true" Nullable="false" />
-    <Property Name="Description" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
-    <Property Name="CreateAt" Type="DateTime" Precision="3" />
-    <Property Name="CreateBy" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
-    <Property Name="UpdateAt" Type="DateTime" Precision="3" />
-    <Property Name="UpdateBy" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
-    <NavigationProperty Name="Products" Relationship="Self.FK_Products_Brands" FromRole="Brand" ToRole="Product" />
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Name" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Name="Image" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Name="Slug" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Name="ShowOnHomePage" Type="Boolean" />
+    <Property Name="DisplayOrder" Type="Int32" />
+    <Property Name="CreatedOnUtc" Type="DateTime" Precision="3" />
+    <Property Name="UpdatedOnUtc" Type="DateTime" Precision="3" />
+    <Property Name="Deleted" Type="Boolean" />
   </EntityType>
   <EntityType Name="Category">
     <Key>
-      <PropertyRef Name="CategoryID" />
+      <PropertyRef Name="Id" />
     </Key>
-    <Property Name="CategoryID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
-    <Property Name="CategoryName" Type="String" MaxLength="255" FixedLength="false" Unicode="true" Nullable="false" />
-    <Property Name="Description" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
-    <Property Name="CreateAt" Type="DateTime" Precision="3" />
-    <Property Name="CreateBy" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
-    <Property Name="UpdateAt" Type="DateTime" Precision="3" />
-    <Property Name="UpdateBy" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
-    <NavigationProperty Name="Products" Relationship="Self.FK_Products_Categories" FromRole="Categories" ToRole="Product" />
+    <Property Name="Id" Type="Int32" Nullable="false" />
+    <Property Name="Name" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Name="Image" Type="String" MaxLength="100" FixedLength="true" Unicode="true" />
+    <Property Name="Slug" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Name="ShowOnHomePage" Type="Boolean" />
+    <Property Name="DisplayOrder" Type="Int32" />
+    <Property Name="Deleted" Type="Boolean" />
+    <Property Name="CreatedOnUtc" Type="DateTime" Precision="3" />
+    <Property Name="UpdateOnUtc" Type="DateTime" Precision="3" />
+  </EntityType>
+  <EntityType Name="Order">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Name" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Name="ProductId" Type="Int32" />
+    <Property Name="Price" Type="Double" />
+    <Property Name="Status" Type="Int32" />
+    <Property Name="CreatedOnUtc" Type="DateTime" Precision="3" />
   </EntityType>
   <EntityType Name="Product">
     <Key>
-      <PropertyRef Name="ProductID" />
+      <PropertyRef Name="Id" />
     </Key>
-    <Property Name="ProductID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
-    <Property Name="ProductName" Type="String" MaxLength="255" FixedLength="false" Unicode="true" Nullable="false" />
-    <Property Name="ShortDescription" Type="String" MaxLength="500" FixedLength="false" Unicode="true" />
-    <Property Name="FullDescription" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
-    <Property Name="ProductImage" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
-    <Property Name="Price" Type="Decimal" Precision="18" Scale="2" Nullable="false" />
-    <Property Name="CategoryID" Type="Int32" Nullable="false" />
-    <Property Name="BrandID" Type="Int32" Nullable="false" />
-    <Property Name="CreateAt" Type="DateTime" Precision="3" />
-    <Property Name="CreateBy" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
-    <Property Name="UpdateAt" Type="DateTime" Precision="3" />
-    <Property Name="UpdateBy" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
-    <Property Name="Status" Type="Boolean" />
-    <NavigationProperty Name="Brand" Relationship="Self.FK_Products_Brands" FromRole="Product" ToRole="Brand" />
-    <NavigationProperty Name="Category" Relationship="Self.FK_Products_Categories" FromRole="Product" ToRole="Categories" />
+    <Property Name="Id" Type="Int32" Nullable="false" />
+    <Property Name="Name" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Name="Image" Type="String" MaxLength="100" FixedLength="true" Unicode="true" />
+    <Property Name="CategoryId" Type="Int32" />
+    <Property Name="ShortDes" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Name="FullDescription" Type="String" MaxLength="500" FixedLength="false" Unicode="true" />
+    <Property Name="Price" Type="Double" />
+    <Property Name="PriceDiscount" Type="Double" />
+    <Property Name="TypeId" Type="Int32" />
+    <Property Name="Slug" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="BrandId" Type="Int32" />
+    <Property Name="Deleted" Type="Boolean" />
+    <Property Name="ShowOnHomePage" Type="Boolean" />
+    <Property Name="DisplayOrder" Type="Int32" />
+    <Property Name="CreatedOnUtc" Type="DateTime" Precision="3" />
+    <Property Name="UpdatedOnUtc" Type="DateTime" Precision="3" />
   </EntityType>
   <EntityType Name="User">
     <Key>
-      <PropertyRef Name="UserID" />
+      <PropertyRef Name="Id" />
     </Key>
-    <Property Name="UserID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
-    <Property Name="UserName" Type="String" MaxLength="100" FixedLength="false" Unicode="true" Nullable="false" />
-    <Property Name="Email" Type="String" MaxLength="255" FixedLength="false" Unicode="true" Nullable="false" />
-    <Property Name="Password" Type="String" MaxLength="255" FixedLength="false" Unicode="true" Nullable="false" />
-    <Property Name="FullName" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
-    <Property Name="Role" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
-    <Property Name="CreateAt" Type="DateTime" Precision="3" />
-    <Property Name="CreateBy" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
-    <Property Name="UpdateAt" Type="DateTime" Precision="3" />
-    <Property Name="UpdateBy" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
-    <Property Name="Status" Type="Boolean" />
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="FirstName" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="LastName" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="Email" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="Password" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="IsAdmin" Type="Boolean" />
   </EntityType>
-  <Association Name="FK_Products_Brands">
-    <End Role="Brand" Type="Self.Brand" Multiplicity="1" />
-    <End Role="Product" Type="Self.Product" Multiplicity="*" />
-    <ReferentialConstraint>
-      <Principal Role="Brand">
-        <PropertyRef Name="BrandID" />
-      </Principal>
-      <Dependent Role="Product">
-        <PropertyRef Name="BrandID" />
-      </Dependent>
-    </ReferentialConstraint>
-  </Association>
-  <Association Name="FK_Products_Categories">
-    <End Role="Categories" Type="Self.Category" Multiplicity="1" />
-    <End Role="Product" Type="Self.Product" Multiplicity="*" />
-    <ReferentialConstraint>
-      <Principal Role="Categories">
-        <PropertyRef Name="CategoryID" />
-      </Principal>
-      <Dependent Role="Product">
-        <PropertyRef Name="CategoryID" />
-      </Dependent>
-    </ReferentialConstraint>
-  </Association>
-  <EntityContainer Name="ASPNETEntities" annotation:LazyLoadingEnabled="true">
+  <EntityContainer Name="ASPNETEntities1" annotation:LazyLoadingEnabled="true">
     <EntitySet Name="Brands" EntityType="Self.Brand" />
     <EntitySet Name="Categories" EntityType="Self.Category" />
+    <EntitySet Name="Orders" EntityType="Self.Order" />
     <EntitySet Name="Products" EntityType="Self.Product" />
     <EntitySet Name="Users" EntityType="Self.User" />
-    <AssociationSet Name="FK_Products_Brands" Association="Self.FK_Products_Brands">
-      <End Role="Brand" EntitySet="Brands" />
-      <End Role="Product" EntitySet="Products" />
-    </AssociationSet>
-    <AssociationSet Name="FK_Products_Categories" Association="Self.FK_Products_Categories">
-      <End Role="Categories" EntitySet="Categories" />
-      <End Role="Product" EntitySet="Products" />
-    </AssociationSet>
   </EntityContainer>
 </Schema>

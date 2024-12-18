@@ -1,116 +1,109 @@
-﻿<!DOCTYPE HTML>
-<html lang="en">
-<head>
-    <meta charset="utf-8">
-    <meta http-equiv="pragma" content="no-cache" />
-    <meta http-equiv="cache-control" content="max-age=604800" />
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+﻿@model ChuyenDeASPNET.Context.User
 
-    <title>Website title - bootstrap html template</title>
+@{
+    ViewBag.Title = "Register";
+   // Layout = "~/Views/Shared/_Layout.cshtml";
 
-    <link href="~/Content/images/favicon.ico" rel="shortcut icon" type="image/x-icon">
+}
 
+<h2>Register</h2>
 
-    <!-- jQuery -->
-    <script src="~/Scripts/js/jquery-2.0.0.min.js"></script>
+@using (Html.BeginForm()) 
+{
+    @Html.AntiForgeryToken()
+    
+    <div class="form-horizontal">
+        <h4>User</h4>
+        <hr />
+        @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+        <div class="form-group">
+            @Html.LabelFor(model => model.UserName, htmlAttributes: new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.EditorFor(model => model.UserName, new { htmlAttributes = new { @class = "form-control" } })
+                @Html.ValidationMessageFor(model => model.UserName, "", new { @class = "text-danger" })
+            </div>
+        </div>
 
-    <!-- Bootstrap4 files-->
-    <script src="~/Scripts/js/bootstrap.bundle.min.js"></script>
+        <div class="form-group">
+            @Html.LabelFor(model => model.Email, htmlAttributes: new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.EditorFor(model => model.Email, new { htmlAttributes = new { @class = "form-control" } })
+                @Html.ValidationMessageFor(model => model.Email, "", new { @class = "text-danger" })
+            </div>
+        </div>
 
+        <div class="form-group">
+            @Html.LabelFor(model => model.Password, htmlAttributes: new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.EditorFor(model => model.Password, new { htmlAttributes = new { @class = "form-control" } })
+                @Html.ValidationMessageFor(model => model.Password, "", new { @class = "text-danger" })
+            </div>
+        </div>
 
-    <link href="~/Content/css/bootstrap.css" rel="stylesheet" />
+        <div class="form-group">
+            @Html.LabelFor(model => model.FullName, htmlAttributes: new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.EditorFor(model => model.FullName, new { htmlAttributes = new { @class = "form-control" } })
+                @Html.ValidationMessageFor(model => model.FullName, "", new { @class = "text-danger" })
+            </div>
+        </div>
 
-    <!-- Font awesome 5 -->
-    <link href="~/Content/fonts/fontawesome/css/all.min.css" rel="stylesheet" />
+        <div class="form-group">
+            @Html.LabelFor(model => model.Role, htmlAttributes: new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.EditorFor(model => model.Role, new { htmlAttributes = new { @class = "form-control" } })
+                @Html.ValidationMessageFor(model => model.Role, "", new { @class = "text-danger" })
+            </div>
+        </div>
 
-    <!-- custom style -->
-    <link href="~/Content/css/ui.css" rel="stylesheet" />
+        <div class="form-group">
+            @Html.LabelFor(model => model.CreateAt, htmlAttributes: new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.EditorFor(model => model.CreateAt, new { htmlAttributes = new { @class = "form-control" } })
+                @Html.ValidationMessageFor(model => model.CreateAt, "", new { @class = "text-danger" })
+            </div>
+        </div>
 
-    <link href="~/Content/css/responsive.css" rel="stylesheet" />
+        <div class="form-group">
+            @Html.LabelFor(model => model.CreateBy, htmlAttributes: new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.EditorFor(model => model.CreateBy, new { htmlAttributes = new { @class = "form-control" } })
+                @Html.ValidationMessageFor(model => model.CreateBy, "", new { @class = "text-danger" })
+            </div>
+        </div>
 
-    <!-- custom javascript -->
-    <script src="~/Scripts/js/script.js"></script>
+        <div class="form-group">
+            @Html.LabelFor(model => model.UpdateAt, htmlAttributes: new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.EditorFor(model => model.UpdateAt, new { htmlAttributes = new { @class = "form-control" } })
+                @Html.ValidationMessageFor(model => model.UpdateAt, "", new { @class = "text-danger" })
+            </div>
+        </div>
 
+        <div class="form-group">
+            @Html.LabelFor(model => model.UpdateBy, htmlAttributes: new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.EditorFor(model => model.UpdateBy, new { htmlAttributes = new { @class = "form-control" } })
+                @Html.ValidationMessageFor(model => model.UpdateBy, "", new { @class = "text-danger" })
+            </div>
+        </div>
 
-</head>
-<body>
+        <div class="form-group">
+            @Html.LabelFor(model => model.Status, htmlAttributes: new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.EditorFor(model => model.Status, new { htmlAttributes = new { @class = "form-control" } })
+                @Html.ValidationMessageFor(model => model.Status, "", new { @class = "text-danger" })
+            </div>
+        </div>
 
-    <!-- ========================= SECTION CONTENT ========================= -->
-    <section class="section-content padding-y">
+        <div class="form-group">
+            <div class="col-md-offset-2 col-md-10">
+                <input type="submit" value="Create" class="btn btn-default" />
+            </div>
+        </div>
+    </div>
+}
 
-        <!-- ============================ COMPONENT REGISTER   ================================= -->
-        <div class="card mx-auto" style="max-width:520px; margin-top:40px;">
-            <article class="card-body">
-                <header class="mb-4"><h4 class="card-title">Sign up</h4></header>
-                <form>
-                    <div class="form-row">
-                        <div class="col form-group">
-                            <label>First name</label>
-                            <input type="text" class="form-control" placeholder="">
-                        </div> <!-- form-group end.// -->
-                        <div class="col form-group">
-                            <label>Last name</label>
-                            <input type="text" class="form-control" placeholder="">
-                        </div> <!-- form-group end.// -->
-                    </div> <!-- form-row end.// -->
-                    <div class="form-group">
-                        <label>Email</label>
-                        <input type="email" class="form-control" placeholder="">
-                        <small class="form-text text-muted">We'll never share your email with anyone else.</small>
-                    </div> <!-- form-group end.// -->
-                    <div class="form-group">
-                        <label class="custom-control custom-radio custom-control-inline">
-                            <input class="custom-control-input" checked="" type="radio" name="gender" value="option1">
-                            <span class="custom-control-label"> Male </span>
-                        </label>
-                        <label class="custom-control custom-radio custom-control-inline">
-                            <input class="custom-control-input" type="radio" name="gender" value="option2">
-                            <span class="custom-control-label"> Female </span>
-                        </label>
-                    </div> <!-- form-group end.// -->
-                    <div class="form-row">
-                        <div class="form-group col-md-6">
-                            <label>City</label>
-                            <input type="text" class="form-control">
-                        </div> <!-- form-group end.// -->
-                        <div class="form-group col-md-6">
-                            <label>Country</label>
-                            <select id="inputState" class="form-control">
-                                <option> Choose...</option>
-                                <option>Uzbekistan</option>
-                                <option>Russia</option>
-                                <option selected="">United States</option>
-                                <option>India</option>
-                                <option>Afganistan</option>
-                            </select>
-                        </div> <!-- form-group end.// -->
-                    </div> <!-- form-row.// -->
-                    <div class="form-row">
-                        <div class="form-group col-md-6">
-                            <label>Create password</label>
-                            <input class="form-control" type="password">
-                        </div> <!-- form-group end.// -->
-                        <div class="form-group col-md-6">
-                            <label>Repeat password</label>
-                            <input class="form-control" type="password">
-                        </div> <!-- form-group end.// -->
-                    </div>
-                    <div class="form-group">
-                        <button type="submit" class="btn btn-primary btn-block"> Register  </button>
-                    </div> <!-- form-group// -->
-                    <div class="form-group">
-                        <label class="custom-control custom-checkbox"> <input type="checkbox" class="custom-control-input" checked=""> <div class="custom-control-label"> I am agree with <a href="#">terms and contitions</a>  </div> </label>
-                    </div> <!-- form-group end.// -->
-                </form>
-            </article><!-- card-body.// -->
-        </div> <!-- card .// -->
-        <p class="text-center mt-4">Have an account? <a href="@Url.Action("Login", "User")">Log In</a></p>
-        <br><br>
-        <!-- ============================ COMPONENT REGISTER  END.// ================================= -->
-
-
-    </section>
-    <!-- ========================= SECTION CONTENT END// ========================= -->
-
-</body>
-</html>
+<div>
+    @Html.ActionLink("Back to List", "Index")
+</div>

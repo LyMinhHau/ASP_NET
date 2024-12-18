@@ -14,21 +14,21 @@ namespace ChuyenDeASPNET.Context
     
     public partial class Product
     {
-        public int ProductID { get; set; }
-        public string ProductName { get; set; }
-        public string ShortDescription { get; set; }
+        public int Id { get; set; }
+        public string Name { get; set; }
+        public string Image { get; set; }
+        public Nullable<int> CategoryId { get; set; }
+        public string ShortDes { get; set; }
         public string FullDescription { get; set; }
-        public string ProductImage { get; set; }
-        public decimal Price { get; set; }
-        public int CategoryID { get; set; }
-        public int BrandID { get; set; }
-        public Nullable<System.DateTime> CreateAt { get; set; }
-        public string CreateBy { get; set; }
-        public Nullable<System.DateTime> UpdateAt { get; set; }
-        public string UpdateBy { get; set; }
-        public Nullable<bool> Status { get; set; }
-    
-        public virtual Brand Brand { get; set; }
-        public virtual Category Category { get; set; }
+        public Nullable<double> Price { get; set; }
+        public Nullable<double> PriceDiscount { get; set; }
+        public Nullable<int> TypeId { get; set; }
+        public string Slug { get; set; }
+        public Nullable<int> BrandId { get; set; }
+        public Nullable<bool> Deleted { get; set; }
+        public Nullable<bool> ShowOnHomePage { get; set; }
+        public Nullable<int> DisplayOrder { get; set; }
+        public Nullable<System.DateTime> CreatedOnUtc { get; set; }
+        public Nullable<System.DateTime> UpdatedOnUtc { get; set; }
     }
 }

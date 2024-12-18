@@ -14,21 +14,14 @@ namespace ChuyenDeASPNET.Context
     
     public partial class Brand
     {
-        [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2214:DoNotCallOverridableMethodsInConstructors")]
-        public Brand()
-        {
-            this.Products = new HashSet<Product>();
-        }
-    
-        public int BrandID { get; set; }
-        public string BrandName { get; set; }
-        public string Description { get; set; }
-        public Nullable<System.DateTime> CreateAt { get; set; }
-        public string CreateBy { get; set; }
-        public Nullable<System.DateTime> UpdateAt { get; set; }
-        public string UpdateBy { get; set; }
-    
-        [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2227:CollectionPropertiesShouldBeReadOnly")]
-        public virtual ICollection<Product> Products { get; set; }
+        public int Id { get; set; }
+        public string Name { get; set; }
+        public string Image { get; set; }
+        public string Slug { get; set; }
+        public Nullable<bool> ShowOnHomePage { get; set; }
+        public Nullable<int> DisplayOrder { get; set; }
+        public Nullable<System.DateTime> CreatedOnUtc { get; set; }
+        public Nullable<System.DateTime> UpdatedOnUtc { get; set; }
+        public Nullable<bool> Deleted { get; set; }
     }
 }
