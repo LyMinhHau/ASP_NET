@@ -13,10 +13,10 @@ namespace ChuyenDeASPNET.Context
     using System.Data.Entity;
     using System.Data.Entity.Infrastructure;
     
-    public partial class ASPNETEntities1 : DbContext
+    public partial class ASPEntities : DbContext
     {
-        public ASPNETEntities1()
-            : base("name=ASPNETEntities1")
+        public ASPEntities()
+            : base("name=ASPEntities")
         {
         }
     
@@ -28,6 +28,7 @@ namespace ChuyenDeASPNET.Context
         public virtual DbSet<Brand> Brands { get; set; }
         public virtual DbSet<Category> Categories { get; set; }
         public virtual DbSet<Order> Orders { get; set; }
+        public virtual DbSet<OrderDetail> OrderDetails { get; set; }
         public virtual DbSet<Product> Products { get; set; }
         public virtual DbSet<User> Users { get; set; }
     }

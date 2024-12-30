@@ -9,15 +9,11 @@ namespace ChuyenDeASPNET.Controllers
     public class ProfileController : Controller
     {
         // GET: Profile
-        public ActionResult Orders()
+        public ActionResult ProfileMain()
         {
             return View();
         }
-        public ActionResult Address()
-        {
-            return View();
-        }
-        public ActionResult Main()
+        public ActionResult Order()
         {
             return View();
         }
@@ -30,6 +26,10 @@ namespace ChuyenDeASPNET.Controllers
             return View();
         }
         public ActionResult Wishlist()
+        {
+            return View();
+        }
+        public ActionResult Address()
         {
             return View();
         }

@@ -1,5 +1,4 @@
-﻿
-using ChuyenDeASPNET.Context;
+﻿using ChuyenDeASPNET.Context;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -11,7 +10,7 @@ namespace ChuyenDeASPNET.Controllers
     public class CategoryController : Controller
     {
         // GET: Category
-        ASPNETEntities1 objWebsiteASP_NETEntities1 = new ASPNETEntities1();
+        ASPEntities objASPEntities = new ASPEntities();
         public ActionResult Index()
         {
 
@@ -20,14 +19,14 @@ namespace ChuyenDeASPNET.Controllers
         public ActionResult AllCategory()
 
         {
-            var lstCategory = objWebsiteASP_NETEntities1.Categories.ToList();
+            var lstCategory = objASPEntities.Categories.ToList();
 
             return View(lstCategory);
         }
-        public ActionResult ProductCategory(int Id)
+        public ActionResult ProductByCategory(int id)
 
         {
-            var listProduct = objWebsiteASP_NETEntities1.Products.Where(n => n.CategoryId == Id).ToList();
+            var listProduct = objASPEntities.Products.Where(n => n.CategoryID == id).ToList();
             return View(listProduct);
         }
     }

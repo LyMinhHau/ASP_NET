@@ -1,4 +1,5 @@
 ﻿using System.Web.Mvc;
+using System.Web.Routing;
 
 namespace ChuyenDeASPNET.Areas.Admin
 {
@@ -18,7 +19,7 @@ namespace ChuyenDeASPNET.Areas.Admin
                 "Admin_default",
                 "Admin/{controller}/{action}/{id}",
                 new { action = "Index", id = UrlParameter.Optional },
-                new[] { "ChuyenDeASPNET.Areas.Admin.Controllers" }
+                new[] {"ChuyenDeASPNET.Areas.Admin.Controllers"}
             );
         }
     }

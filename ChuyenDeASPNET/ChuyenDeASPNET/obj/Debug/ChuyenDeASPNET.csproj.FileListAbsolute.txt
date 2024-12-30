@@ -77,161 +77,169 @@ E:\Chuyên đề ASP.NET\ChuyenDeASPNET\ChuyenDeASPNET\obj\Debug\ChuyenDeASPNET.
 E:\Chuyên đề ASP.NET\ChuyenDeASPNET\ChuyenDeASPNET\obj\Debug\ChuyenDeASPNET.csproj.CopyComplete
 E:\Chuyên đề ASP.NET\ChuyenDeASPNET\ChuyenDeASPNET\obj\Debug\ChuyenDeASPNET.dll
 E:\Chuyên đề ASP.NET\ChuyenDeASPNET\ChuyenDeASPNET\obj\Debug\ChuyenDeASPNET.pdb
-D:\LapTrinhASP.NET\ChuyenDeASPNET\ChuyenDeASPNET\bin\ChuyenDeASPNET.dll.config
-D:\LapTrinhASP.NET\ChuyenDeASPNET\ChuyenDeASPNET\bin\ChuyenDeASPNET.dll
-D:\LapTrinhASP.NET\ChuyenDeASPNET\ChuyenDeASPNET\bin\ChuyenDeASPNET.pdb
-D:\LapTrinhASP.NET\ChuyenDeASPNET\ChuyenDeASPNET\bin\roslyn\csc.exe
-D:\LapTrinhASP.NET\ChuyenDeASPNET\ChuyenDeASPNET\bin\roslyn\csc.exe.config
-D:\LapTrinhASP.NET\ChuyenDeASPNET\ChuyenDeASPNET\bin\roslyn\csc.rsp
-D:\LapTrinhASP.NET\ChuyenDeASPNET\ChuyenDeASPNET\bin\roslyn\csi.exe
-D:\LapTrinhASP.NET\ChuyenDeASPNET\ChuyenDeASPNET\bin\roslyn\csi.exe.config
-D:\LapTrinhASP.NET\ChuyenDeASPNET\ChuyenDeASPNET\bin\roslyn\csi.rsp
-D:\LapTrinhASP.NET\ChuyenDeASPNET\ChuyenDeASPNET\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
-D:\LapTrinhASP.NET\ChuyenDeASPNET\ChuyenDeASPNET\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
-D:\LapTrinhASP.NET\ChuyenDeASPNET\ChuyenDeASPNET\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
-D:\LapTrinhASP.NET\ChuyenDeASPNET\ChuyenDeASPNET\bin\roslyn\Microsoft.CodeAnalysis.dll
-D:\LapTrinhASP.NET\ChuyenDeASPNET\ChuyenDeASPNET\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
-D:\LapTrinhASP.NET\ChuyenDeASPNET\ChuyenDeASPNET\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
-D:\LapTrinhASP.NET\ChuyenDeASPNET\ChuyenDeASPNET\bin\roslyn\Microsoft.CSharp.Core.targets
-D:\LapTrinhASP.NET\ChuyenDeASPNET\ChuyenDeASPNET\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
-D:\LapTrinhASP.NET\ChuyenDeASPNET\ChuyenDeASPNET\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
-D:\LapTrinhASP.NET\ChuyenDeASPNET\ChuyenDeASPNET\bin\roslyn\Microsoft.Managed.Core.targets
-D:\LapTrinhASP.NET\ChuyenDeASPNET\ChuyenDeASPNET\bin\roslyn\Microsoft.VisualBasic.Core.targets
-D:\LapTrinhASP.NET\ChuyenDeASPNET\ChuyenDeASPNET\bin\roslyn\Microsoft.Win32.Primitives.dll
-D:\LapTrinhASP.NET\ChuyenDeASPNET\ChuyenDeASPNET\bin\roslyn\System.AppContext.dll
-D:\LapTrinhASP.NET\ChuyenDeASPNET\ChuyenDeASPNET\bin\roslyn\System.Collections.Immutable.dll
-D:\LapTrinhASP.NET\ChuyenDeASPNET\ChuyenDeASPNET\bin\roslyn\System.Console.dll
-D:\LapTrinhASP.NET\ChuyenDeASPNET\ChuyenDeASPNET\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
-D:\LapTrinhASP.NET\ChuyenDeASPNET\ChuyenDeASPNET\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
-D:\LapTrinhASP.NET\ChuyenDeASPNET\ChuyenDeASPNET\bin\roslyn\System.Diagnostics.StackTrace.dll
-D:\LapTrinhASP.NET\ChuyenDeASPNET\ChuyenDeASPNET\bin\roslyn\System.Globalization.Calendars.dll
-D:\LapTrinhASP.NET\ChuyenDeASPNET\ChuyenDeASPNET\bin\roslyn\System.IO.Compression.dll
-D:\LapTrinhASP.NET\ChuyenDeASPNET\ChuyenDeASPNET\bin\roslyn\System.IO.Compression.ZipFile.dll
-D:\LapTrinhASP.NET\ChuyenDeASPNET\ChuyenDeASPNET\bin\roslyn\System.IO.FileSystem.dll
-D:\LapTrinhASP.NET\ChuyenDeASPNET\ChuyenDeASPNET\bin\roslyn\System.IO.FileSystem.Primitives.dll
-D:\LapTrinhASP.NET\ChuyenDeASPNET\ChuyenDeASPNET\bin\roslyn\System.Net.Http.dll
-D:\LapTrinhASP.NET\ChuyenDeASPNET\ChuyenDeASPNET\bin\roslyn\System.Net.Sockets.dll
-D:\LapTrinhASP.NET\ChuyenDeASPNET\ChuyenDeASPNET\bin\roslyn\System.Reflection.Metadata.dll
-D:\LapTrinhASP.NET\ChuyenDeASPNET\ChuyenDeASPNET\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
-D:\LapTrinhASP.NET\ChuyenDeASPNET\ChuyenDeASPNET\bin\roslyn\System.Security.Cryptography.Algorithms.dll
-D:\LapTrinhASP.NET\ChuyenDeASPNET\ChuyenDeASPNET\bin\roslyn\System.Security.Cryptography.Encoding.dll
-D:\LapTrinhASP.NET\ChuyenDeASPNET\ChuyenDeASPNET\bin\roslyn\System.Security.Cryptography.Primitives.dll
-D:\LapTrinhASP.NET\ChuyenDeASPNET\ChuyenDeASPNET\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
-D:\LapTrinhASP.NET\ChuyenDeASPNET\ChuyenDeASPNET\bin\roslyn\System.Text.Encoding.CodePages.dll
-D:\LapTrinhASP.NET\ChuyenDeASPNET\ChuyenDeASPNET\bin\roslyn\System.Threading.Tasks.Extensions.dll
-D:\LapTrinhASP.NET\ChuyenDeASPNET\ChuyenDeASPNET\bin\roslyn\System.ValueTuple.dll
-D:\LapTrinhASP.NET\ChuyenDeASPNET\ChuyenDeASPNET\bin\roslyn\System.Xml.ReaderWriter.dll
-D:\LapTrinhASP.NET\ChuyenDeASPNET\ChuyenDeASPNET\bin\roslyn\System.Xml.XmlDocument.dll
-D:\LapTrinhASP.NET\ChuyenDeASPNET\ChuyenDeASPNET\bin\roslyn\System.Xml.XPath.dll
-D:\LapTrinhASP.NET\ChuyenDeASPNET\ChuyenDeASPNET\bin\roslyn\System.Xml.XPath.XDocument.dll
-D:\LapTrinhASP.NET\ChuyenDeASPNET\ChuyenDeASPNET\bin\roslyn\vbc.exe
-D:\LapTrinhASP.NET\ChuyenDeASPNET\ChuyenDeASPNET\bin\roslyn\vbc.exe.config
-D:\LapTrinhASP.NET\ChuyenDeASPNET\ChuyenDeASPNET\bin\roslyn\vbc.rsp
-D:\LapTrinhASP.NET\ChuyenDeASPNET\ChuyenDeASPNET\bin\roslyn\VBCSCompiler.exe
-D:\LapTrinhASP.NET\ChuyenDeASPNET\ChuyenDeASPNET\bin\roslyn\VBCSCompiler.exe.config
-D:\LapTrinhASP.NET\ChuyenDeASPNET\ChuyenDeASPNET\bin\Antlr3.Runtime.dll
-D:\LapTrinhASP.NET\ChuyenDeASPNET\ChuyenDeASPNET\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
-D:\LapTrinhASP.NET\ChuyenDeASPNET\ChuyenDeASPNET\bin\Microsoft.Web.Infrastructure.dll
-D:\LapTrinhASP.NET\ChuyenDeASPNET\ChuyenDeASPNET\bin\Newtonsoft.Json.dll
-D:\LapTrinhASP.NET\ChuyenDeASPNET\ChuyenDeASPNET\bin\System.Web.Helpers.dll
-D:\LapTrinhASP.NET\ChuyenDeASPNET\ChuyenDeASPNET\bin\System.Web.Mvc.dll
-D:\LapTrinhASP.NET\ChuyenDeASPNET\ChuyenDeASPNET\bin\System.Web.Optimization.dll
-D:\LapTrinhASP.NET\ChuyenDeASPNET\ChuyenDeASPNET\bin\System.Web.Razor.dll
-D:\LapTrinhASP.NET\ChuyenDeASPNET\ChuyenDeASPNET\bin\System.Web.WebPages.Deployment.dll
-D:\LapTrinhASP.NET\ChuyenDeASPNET\ChuyenDeASPNET\bin\System.Web.WebPages.dll
-D:\LapTrinhASP.NET\ChuyenDeASPNET\ChuyenDeASPNET\bin\System.Web.WebPages.Razor.dll
-D:\LapTrinhASP.NET\ChuyenDeASPNET\ChuyenDeASPNET\bin\WebGrease.dll
-D:\LapTrinhASP.NET\ChuyenDeASPNET\ChuyenDeASPNET\bin\System.Web.Helpers.xml
-D:\LapTrinhASP.NET\ChuyenDeASPNET\ChuyenDeASPNET\bin\System.Web.Mvc.xml
-D:\LapTrinhASP.NET\ChuyenDeASPNET\ChuyenDeASPNET\bin\System.Web.Optimization.xml
-D:\LapTrinhASP.NET\ChuyenDeASPNET\ChuyenDeASPNET\bin\System.Web.Razor.xml
-D:\LapTrinhASP.NET\ChuyenDeASPNET\ChuyenDeASPNET\bin\System.Web.WebPages.xml
-D:\LapTrinhASP.NET\ChuyenDeASPNET\ChuyenDeASPNET\bin\System.Web.WebPages.Deployment.xml
-D:\LapTrinhASP.NET\ChuyenDeASPNET\ChuyenDeASPNET\bin\System.Web.WebPages.Razor.xml
-D:\LapTrinhASP.NET\ChuyenDeASPNET\ChuyenDeASPNET\bin\Newtonsoft.Json.xml
-D:\LapTrinhASP.NET\ChuyenDeASPNET\ChuyenDeASPNET\bin\Antlr3.Runtime.pdb
-D:\LapTrinhASP.NET\ChuyenDeASPNET\ChuyenDeASPNET\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
-D:\LapTrinhASP.NET\ChuyenDeASPNET\ChuyenDeASPNET\obj\Debug\ChuyenDeASPNET.csproj.AssemblyReference.cache
-D:\LapTrinhASP.NET\ChuyenDeASPNET\ChuyenDeASPNET\obj\Debug\ChuyenDeASPNET.csproj.CoreCompileInputs.cache
-D:\LapTrinhASP.NET\ChuyenDeASPNET\ChuyenDeASPNET\obj\Debug\ChuyenDeASPNET.csproj.CopyComplete
-D:\LapTrinhASP.NET\ChuyenDeASPNET\ChuyenDeASPNET\obj\Debug\ChuyenDeASPNET.dll
-D:\LapTrinhASP.NET\ChuyenDeASPNET\ChuyenDeASPNET\obj\Debug\ChuyenDeASPNET.pdb
-C:\Ăn cắp\ASP\ChuyenDeASPNET\ChuyenDeASPNET\ChuyenDeASPNET\bin\ChuyenDeASPNET.dll.config
-C:\Ăn cắp\ASP\ChuyenDeASPNET\ChuyenDeASPNET\ChuyenDeASPNET\bin\ChuyenDeASPNET.dll
-C:\Ăn cắp\ASP\ChuyenDeASPNET\ChuyenDeASPNET\ChuyenDeASPNET\bin\ChuyenDeASPNET.pdb
-C:\Ăn cắp\ASP\ChuyenDeASPNET\ChuyenDeASPNET\ChuyenDeASPNET\bin\roslyn\csc.exe
-C:\Ăn cắp\ASP\ChuyenDeASPNET\ChuyenDeASPNET\ChuyenDeASPNET\bin\roslyn\csc.exe.config
-C:\Ăn cắp\ASP\ChuyenDeASPNET\ChuyenDeASPNET\ChuyenDeASPNET\bin\roslyn\csc.rsp
-C:\Ăn cắp\ASP\ChuyenDeASPNET\ChuyenDeASPNET\ChuyenDeASPNET\bin\roslyn\csi.exe
-C:\Ăn cắp\ASP\ChuyenDeASPNET\ChuyenDeASPNET\ChuyenDeASPNET\bin\roslyn\csi.exe.config
-C:\Ăn cắp\ASP\ChuyenDeASPNET\ChuyenDeASPNET\ChuyenDeASPNET\bin\roslyn\csi.rsp
-C:\Ăn cắp\ASP\ChuyenDeASPNET\ChuyenDeASPNET\ChuyenDeASPNET\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
-C:\Ăn cắp\ASP\ChuyenDeASPNET\ChuyenDeASPNET\ChuyenDeASPNET\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
-C:\Ăn cắp\ASP\ChuyenDeASPNET\ChuyenDeASPNET\ChuyenDeASPNET\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
-C:\Ăn cắp\ASP\ChuyenDeASPNET\ChuyenDeASPNET\ChuyenDeASPNET\bin\roslyn\Microsoft.CodeAnalysis.dll
-C:\Ăn cắp\ASP\ChuyenDeASPNET\ChuyenDeASPNET\ChuyenDeASPNET\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
-C:\Ăn cắp\ASP\ChuyenDeASPNET\ChuyenDeASPNET\ChuyenDeASPNET\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
-C:\Ăn cắp\ASP\ChuyenDeASPNET\ChuyenDeASPNET\ChuyenDeASPNET\bin\roslyn\Microsoft.CSharp.Core.targets
-C:\Ăn cắp\ASP\ChuyenDeASPNET\ChuyenDeASPNET\ChuyenDeASPNET\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
-C:\Ăn cắp\ASP\ChuyenDeASPNET\ChuyenDeASPNET\ChuyenDeASPNET\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
-C:\Ăn cắp\ASP\ChuyenDeASPNET\ChuyenDeASPNET\ChuyenDeASPNET\bin\roslyn\Microsoft.Managed.Core.targets
-C:\Ăn cắp\ASP\ChuyenDeASPNET\ChuyenDeASPNET\ChuyenDeASPNET\bin\roslyn\Microsoft.VisualBasic.Core.targets
-C:\Ăn cắp\ASP\ChuyenDeASPNET\ChuyenDeASPNET\ChuyenDeASPNET\bin\roslyn\Microsoft.Win32.Primitives.dll
-C:\Ăn cắp\ASP\ChuyenDeASPNET\ChuyenDeASPNET\ChuyenDeASPNET\bin\roslyn\System.AppContext.dll
-C:\Ăn cắp\ASP\ChuyenDeASPNET\ChuyenDeASPNET\ChuyenDeASPNET\bin\roslyn\System.Collections.Immutable.dll
-C:\Ăn cắp\ASP\ChuyenDeASPNET\ChuyenDeASPNET\ChuyenDeASPNET\bin\roslyn\System.Console.dll
-C:\Ăn cắp\ASP\ChuyenDeASPNET\ChuyenDeASPNET\ChuyenDeASPNET\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
-C:\Ăn cắp\ASP\ChuyenDeASPNET\ChuyenDeASPNET\ChuyenDeASPNET\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
-C:\Ăn cắp\ASP\ChuyenDeASPNET\ChuyenDeASPNET\ChuyenDeASPNET\bin\roslyn\System.Diagnostics.StackTrace.dll
-C:\Ăn cắp\ASP\ChuyenDeASPNET\ChuyenDeASPNET\ChuyenDeASPNET\bin\roslyn\System.Globalization.Calendars.dll
-C:\Ăn cắp\ASP\ChuyenDeASPNET\ChuyenDeASPNET\ChuyenDeASPNET\bin\roslyn\System.IO.Compression.dll
-C:\Ăn cắp\ASP\ChuyenDeASPNET\ChuyenDeASPNET\ChuyenDeASPNET\bin\roslyn\System.IO.Compression.ZipFile.dll
-C:\Ăn cắp\ASP\ChuyenDeASPNET\ChuyenDeASPNET\ChuyenDeASPNET\bin\roslyn\System.IO.FileSystem.dll
-C:\Ăn cắp\ASP\ChuyenDeASPNET\ChuyenDeASPNET\ChuyenDeASPNET\bin\roslyn\System.IO.FileSystem.Primitives.dll
-C:\Ăn cắp\ASP\ChuyenDeASPNET\ChuyenDeASPNET\ChuyenDeASPNET\bin\roslyn\System.Net.Http.dll
-C:\Ăn cắp\ASP\ChuyenDeASPNET\ChuyenDeASPNET\ChuyenDeASPNET\bin\roslyn\System.Net.Sockets.dll
-C:\Ăn cắp\ASP\ChuyenDeASPNET\ChuyenDeASPNET\ChuyenDeASPNET\bin\roslyn\System.Reflection.Metadata.dll
-C:\Ăn cắp\ASP\ChuyenDeASPNET\ChuyenDeASPNET\ChuyenDeASPNET\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
-C:\Ăn cắp\ASP\ChuyenDeASPNET\ChuyenDeASPNET\ChuyenDeASPNET\bin\roslyn\System.Security.Cryptography.Algorithms.dll
-C:\Ăn cắp\ASP\ChuyenDeASPNET\ChuyenDeASPNET\ChuyenDeASPNET\bin\roslyn\System.Security.Cryptography.Encoding.dll
-C:\Ăn cắp\ASP\ChuyenDeASPNET\ChuyenDeASPNET\ChuyenDeASPNET\bin\roslyn\System.Security.Cryptography.Primitives.dll
-C:\Ăn cắp\ASP\ChuyenDeASPNET\ChuyenDeASPNET\ChuyenDeASPNET\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
-C:\Ăn cắp\ASP\ChuyenDeASPNET\ChuyenDeASPNET\ChuyenDeASPNET\bin\roslyn\System.Text.Encoding.CodePages.dll
-C:\Ăn cắp\ASP\ChuyenDeASPNET\ChuyenDeASPNET\ChuyenDeASPNET\bin\roslyn\System.Threading.Tasks.Extensions.dll
-C:\Ăn cắp\ASP\ChuyenDeASPNET\ChuyenDeASPNET\ChuyenDeASPNET\bin\roslyn\System.ValueTuple.dll
-C:\Ăn cắp\ASP\ChuyenDeASPNET\ChuyenDeASPNET\ChuyenDeASPNET\bin\roslyn\System.Xml.ReaderWriter.dll
-C:\Ăn cắp\ASP\ChuyenDeASPNET\ChuyenDeASPNET\ChuyenDeASPNET\bin\roslyn\System.Xml.XmlDocument.dll
-C:\Ăn cắp\ASP\ChuyenDeASPNET\ChuyenDeASPNET\ChuyenDeASPNET\bin\roslyn\System.Xml.XPath.dll
-C:\Ăn cắp\ASP\ChuyenDeASPNET\ChuyenDeASPNET\ChuyenDeASPNET\bin\roslyn\System.Xml.XPath.XDocument.dll
-C:\Ăn cắp\ASP\ChuyenDeASPNET\ChuyenDeASPNET\ChuyenDeASPNET\bin\roslyn\vbc.exe
-C:\Ăn cắp\ASP\ChuyenDeASPNET\ChuyenDeASPNET\ChuyenDeASPNET\bin\roslyn\vbc.exe.config
-C:\Ăn cắp\ASP\ChuyenDeASPNET\ChuyenDeASPNET\ChuyenDeASPNET\bin\roslyn\vbc.rsp
-C:\Ăn cắp\ASP\ChuyenDeASPNET\ChuyenDeASPNET\ChuyenDeASPNET\bin\roslyn\VBCSCompiler.exe
-C:\Ăn cắp\ASP\ChuyenDeASPNET\ChuyenDeASPNET\ChuyenDeASPNET\bin\roslyn\VBCSCompiler.exe.config
-C:\Ăn cắp\ASP\ChuyenDeASPNET\ChuyenDeASPNET\ChuyenDeASPNET\bin\Antlr3.Runtime.dll
-C:\Ăn cắp\ASP\ChuyenDeASPNET\ChuyenDeASPNET\ChuyenDeASPNET\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
-C:\Ăn cắp\ASP\ChuyenDeASPNET\ChuyenDeASPNET\ChuyenDeASPNET\bin\Microsoft.Web.Infrastructure.dll
-C:\Ăn cắp\ASP\ChuyenDeASPNET\ChuyenDeASPNET\ChuyenDeASPNET\bin\Newtonsoft.Json.dll
-C:\Ăn cắp\ASP\ChuyenDeASPNET\ChuyenDeASPNET\ChuyenDeASPNET\bin\System.Web.Helpers.dll
-C:\Ăn cắp\ASP\ChuyenDeASPNET\ChuyenDeASPNET\ChuyenDeASPNET\bin\System.Web.Mvc.dll
-C:\Ăn cắp\ASP\ChuyenDeASPNET\ChuyenDeASPNET\ChuyenDeASPNET\bin\System.Web.Optimization.dll
-C:\Ăn cắp\ASP\ChuyenDeASPNET\ChuyenDeASPNET\ChuyenDeASPNET\bin\System.Web.Razor.dll
-C:\Ăn cắp\ASP\ChuyenDeASPNET\ChuyenDeASPNET\ChuyenDeASPNET\bin\System.Web.WebPages.Deployment.dll
-C:\Ăn cắp\ASP\ChuyenDeASPNET\ChuyenDeASPNET\ChuyenDeASPNET\bin\System.Web.WebPages.dll
-C:\Ăn cắp\ASP\ChuyenDeASPNET\ChuyenDeASPNET\ChuyenDeASPNET\bin\System.Web.WebPages.Razor.dll
-C:\Ăn cắp\ASP\ChuyenDeASPNET\ChuyenDeASPNET\ChuyenDeASPNET\bin\WebGrease.dll
-C:\Ăn cắp\ASP\ChuyenDeASPNET\ChuyenDeASPNET\ChuyenDeASPNET\bin\System.Web.Helpers.xml
-C:\Ăn cắp\ASP\ChuyenDeASPNET\ChuyenDeASPNET\ChuyenDeASPNET\bin\System.Web.Mvc.xml
-C:\Ăn cắp\ASP\ChuyenDeASPNET\ChuyenDeASPNET\ChuyenDeASPNET\bin\System.Web.Optimization.xml
-C:\Ăn cắp\ASP\ChuyenDeASPNET\ChuyenDeASPNET\ChuyenDeASPNET\bin\System.Web.Razor.xml
-C:\Ăn cắp\ASP\ChuyenDeASPNET\ChuyenDeASPNET\ChuyenDeASPNET\bin\System.Web.WebPages.xml
-C:\Ăn cắp\ASP\ChuyenDeASPNET\ChuyenDeASPNET\ChuyenDeASPNET\bin\System.Web.WebPages.Deployment.xml
-C:\Ăn cắp\ASP\ChuyenDeASPNET\ChuyenDeASPNET\ChuyenDeASPNET\bin\System.Web.WebPages.Razor.xml
-C:\Ăn cắp\ASP\ChuyenDeASPNET\ChuyenDeASPNET\ChuyenDeASPNET\bin\Newtonsoft.Json.xml
-C:\Ăn cắp\ASP\ChuyenDeASPNET\ChuyenDeASPNET\ChuyenDeASPNET\bin\Antlr3.Runtime.pdb
-C:\Ăn cắp\ASP\ChuyenDeASPNET\ChuyenDeASPNET\ChuyenDeASPNET\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
-C:\Ăn cắp\ASP\ChuyenDeASPNET\ChuyenDeASPNET\ChuyenDeASPNET\obj\Debug\ChuyenDeASPNET.csproj.AssemblyReference.cache
-C:\Ăn cắp\ASP\ChuyenDeASPNET\ChuyenDeASPNET\ChuyenDeASPNET\obj\Debug\ChuyenDeASPNET.csproj.CoreCompileInputs.cache
-C:\Ăn cắp\ASP\ChuyenDeASPNET\ChuyenDeASPNET\ChuyenDeASPNET\obj\Debug\ChuyenDe.68C5C61A.Up2Date
-C:\Ăn cắp\ASP\ChuyenDeASPNET\ChuyenDeASPNET\ChuyenDeASPNET\obj\Debug\ChuyenDeASPNET.dll
-C:\Ăn cắp\ASP\ChuyenDeASPNET\ChuyenDeASPNET\ChuyenDeASPNET\obj\Debug\ChuyenDeASPNET.pdb
+C:\Users\Dung Nguyen\Desktop\ASP.NET\ChuyenDeASPNET\bin\ChuyenDeASPNET.dll.config
+C:\Users\Dung Nguyen\Desktop\ASP.NET\ChuyenDeASPNET\bin\ChuyenDeASPNET.dll
+C:\Users\Dung Nguyen\Desktop\ASP.NET\ChuyenDeASPNET\bin\ChuyenDeASPNET.pdb
+C:\Users\Dung Nguyen\Desktop\ASP.NET\ChuyenDeASPNET\bin\roslyn\csc.exe
+C:\Users\Dung Nguyen\Desktop\ASP.NET\ChuyenDeASPNET\bin\roslyn\csc.exe.config
+C:\Users\Dung Nguyen\Desktop\ASP.NET\ChuyenDeASPNET\bin\roslyn\csc.rsp
+C:\Users\Dung Nguyen\Desktop\ASP.NET\ChuyenDeASPNET\bin\roslyn\csi.exe
+C:\Users\Dung Nguyen\Desktop\ASP.NET\ChuyenDeASPNET\bin\roslyn\csi.exe.config
+C:\Users\Dung Nguyen\Desktop\ASP.NET\ChuyenDeASPNET\bin\roslyn\csi.rsp
+C:\Users\Dung Nguyen\Desktop\ASP.NET\ChuyenDeASPNET\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Dung Nguyen\Desktop\ASP.NET\ChuyenDeASPNET\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Dung Nguyen\Desktop\ASP.NET\ChuyenDeASPNET\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\Dung Nguyen\Desktop\ASP.NET\ChuyenDeASPNET\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Dung Nguyen\Desktop\ASP.NET\ChuyenDeASPNET\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\Dung Nguyen\Desktop\ASP.NET\ChuyenDeASPNET\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Dung Nguyen\Desktop\ASP.NET\ChuyenDeASPNET\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Dung Nguyen\Desktop\ASP.NET\ChuyenDeASPNET\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\Dung Nguyen\Desktop\ASP.NET\ChuyenDeASPNET\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\Dung Nguyen\Desktop\ASP.NET\ChuyenDeASPNET\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\Dung Nguyen\Desktop\ASP.NET\ChuyenDeASPNET\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Dung Nguyen\Desktop\ASP.NET\ChuyenDeASPNET\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\Users\Dung Nguyen\Desktop\ASP.NET\ChuyenDeASPNET\bin\roslyn\System.AppContext.dll
+C:\Users\Dung Nguyen\Desktop\ASP.NET\ChuyenDeASPNET\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Dung Nguyen\Desktop\ASP.NET\ChuyenDeASPNET\bin\roslyn\System.Console.dll
+C:\Users\Dung Nguyen\Desktop\ASP.NET\ChuyenDeASPNET\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+C:\Users\Dung Nguyen\Desktop\ASP.NET\ChuyenDeASPNET\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\Dung Nguyen\Desktop\ASP.NET\ChuyenDeASPNET\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\Dung Nguyen\Desktop\ASP.NET\ChuyenDeASPNET\bin\roslyn\System.Globalization.Calendars.dll
+C:\Users\Dung Nguyen\Desktop\ASP.NET\ChuyenDeASPNET\bin\roslyn\System.IO.Compression.dll
+C:\Users\Dung Nguyen\Desktop\ASP.NET\ChuyenDeASPNET\bin\roslyn\System.IO.Compression.ZipFile.dll
+C:\Users\Dung Nguyen\Desktop\ASP.NET\ChuyenDeASPNET\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\Dung Nguyen\Desktop\ASP.NET\ChuyenDeASPNET\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\Dung Nguyen\Desktop\ASP.NET\ChuyenDeASPNET\bin\roslyn\System.Net.Http.dll
+C:\Users\Dung Nguyen\Desktop\ASP.NET\ChuyenDeASPNET\bin\roslyn\System.Net.Sockets.dll
+C:\Users\Dung Nguyen\Desktop\ASP.NET\ChuyenDeASPNET\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Dung Nguyen\Desktop\ASP.NET\ChuyenDeASPNET\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Users\Dung Nguyen\Desktop\ASP.NET\ChuyenDeASPNET\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\Dung Nguyen\Desktop\ASP.NET\ChuyenDeASPNET\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\Dung Nguyen\Desktop\ASP.NET\ChuyenDeASPNET\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\Dung Nguyen\Desktop\ASP.NET\ChuyenDeASPNET\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\Dung Nguyen\Desktop\ASP.NET\ChuyenDeASPNET\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\Dung Nguyen\Desktop\ASP.NET\ChuyenDeASPNET\bin\roslyn\System.Threading.Tasks.Extensions.dll
+C:\Users\Dung Nguyen\Desktop\ASP.NET\ChuyenDeASPNET\bin\roslyn\System.ValueTuple.dll
+C:\Users\Dung Nguyen\Desktop\ASP.NET\ChuyenDeASPNET\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\Dung Nguyen\Desktop\ASP.NET\ChuyenDeASPNET\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\Dung Nguyen\Desktop\ASP.NET\ChuyenDeASPNET\bin\roslyn\System.Xml.XPath.dll
+C:\Users\Dung Nguyen\Desktop\ASP.NET\ChuyenDeASPNET\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\Dung Nguyen\Desktop\ASP.NET\ChuyenDeASPNET\bin\roslyn\vbc.exe
+C:\Users\Dung Nguyen\Desktop\ASP.NET\ChuyenDeASPNET\bin\roslyn\vbc.exe.config
+C:\Users\Dung Nguyen\Desktop\ASP.NET\ChuyenDeASPNET\bin\roslyn\vbc.rsp
+C:\Users\Dung Nguyen\Desktop\ASP.NET\ChuyenDeASPNET\bin\roslyn\VBCSCompiler.exe
+C:\Users\Dung Nguyen\Desktop\ASP.NET\ChuyenDeASPNET\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Dung Nguyen\Desktop\ASP.NET\ChuyenDeASPNET\bin\Antlr3.Runtime.dll
+C:\Users\Dung Nguyen\Desktop\ASP.NET\ChuyenDeASPNET\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Dung Nguyen\Desktop\ASP.NET\ChuyenDeASPNET\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Dung Nguyen\Desktop\ASP.NET\ChuyenDeASPNET\bin\Newtonsoft.Json.dll
+C:\Users\Dung Nguyen\Desktop\ASP.NET\ChuyenDeASPNET\bin\System.Web.Helpers.dll
+C:\Users\Dung Nguyen\Desktop\ASP.NET\ChuyenDeASPNET\bin\System.Web.Mvc.dll
+C:\Users\Dung Nguyen\Desktop\ASP.NET\ChuyenDeASPNET\bin\System.Web.Optimization.dll
+C:\Users\Dung Nguyen\Desktop\ASP.NET\ChuyenDeASPNET\bin\System.Web.Razor.dll
+C:\Users\Dung Nguyen\Desktop\ASP.NET\ChuyenDeASPNET\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Dung Nguyen\Desktop\ASP.NET\ChuyenDeASPNET\bin\System.Web.WebPages.dll
+C:\Users\Dung Nguyen\Desktop\ASP.NET\ChuyenDeASPNET\bin\System.Web.WebPages.Razor.dll
+C:\Users\Dung Nguyen\Desktop\ASP.NET\ChuyenDeASPNET\bin\WebGrease.dll
+C:\Users\Dung Nguyen\Desktop\ASP.NET\ChuyenDeASPNET\bin\System.Web.Helpers.xml
+C:\Users\Dung Nguyen\Desktop\ASP.NET\ChuyenDeASPNET\bin\System.Web.Mvc.xml
+C:\Users\Dung Nguyen\Desktop\ASP.NET\ChuyenDeASPNET\bin\System.Web.Optimization.xml
+C:\Users\Dung Nguyen\Desktop\ASP.NET\ChuyenDeASPNET\bin\System.Web.Razor.xml
+C:\Users\Dung Nguyen\Desktop\ASP.NET\ChuyenDeASPNET\bin\System.Web.WebPages.xml
+C:\Users\Dung Nguyen\Desktop\ASP.NET\ChuyenDeASPNET\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Dung Nguyen\Desktop\ASP.NET\ChuyenDeASPNET\bin\System.Web.WebPages.Razor.xml
+C:\Users\Dung Nguyen\Desktop\ASP.NET\ChuyenDeASPNET\bin\Newtonsoft.Json.xml
+C:\Users\Dung Nguyen\Desktop\ASP.NET\ChuyenDeASPNET\bin\Antlr3.Runtime.pdb
+C:\Users\Dung Nguyen\Desktop\ASP.NET\ChuyenDeASPNET\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Dung Nguyen\Desktop\ASP.NET\ChuyenDeASPNET\obj\Debug\ChuyenDeASPNET.csproj.AssemblyReference.cache
+C:\Users\Dung Nguyen\Desktop\ASP.NET\ChuyenDeASPNET\obj\Debug\ChuyenDeASPNET.csproj.CoreCompileInputs.cache
+C:\Users\Dung Nguyen\Desktop\ASP.NET\ChuyenDeASPNET\obj\Debug\ChuyenDeASPNET.csproj.CopyComplete
+C:\Users\Dung Nguyen\Desktop\ASP.NET\ChuyenDeASPNET\obj\Debug\ChuyenDeASPNET.dll
+C:\Users\Dung Nguyen\Desktop\ASP.NET\ChuyenDeASPNET\obj\Debug\ChuyenDeASPNET.pdb
+C:\Users\Dung Nguyen\Desktop\ASP.NET\ChuyenDeASPNET\bin\EntityFramework.dll
+C:\Users\Dung Nguyen\Desktop\ASP.NET\ChuyenDeASPNET\bin\EntityFramework.SqlServer.dll
+C:\Users\Dung Nguyen\Desktop\ASP.NET\ChuyenDeASPNET\bin\EntityFramework.xml
+C:\Users\Dung Nguyen\Desktop\ASP.NET\ChuyenDeASPNET\bin\EntityFramework.SqlServer.xml
+C:\ASP.NET\ASP.NET\ChuyenDeASPNET\bin\ChuyenDeASPNET.dll.config
+C:\ASP.NET\ASP.NET\ChuyenDeASPNET\bin\ChuyenDeASPNET.dll
+C:\ASP.NET\ASP.NET\ChuyenDeASPNET\bin\ChuyenDeASPNET.pdb
+C:\ASP.NET\ASP.NET\ChuyenDeASPNET\bin\roslyn\csc.exe
+C:\ASP.NET\ASP.NET\ChuyenDeASPNET\bin\roslyn\csc.exe.config
+C:\ASP.NET\ASP.NET\ChuyenDeASPNET\bin\roslyn\csc.rsp
+C:\ASP.NET\ASP.NET\ChuyenDeASPNET\bin\roslyn\csi.exe
+C:\ASP.NET\ASP.NET\ChuyenDeASPNET\bin\roslyn\csi.exe.config
+C:\ASP.NET\ASP.NET\ChuyenDeASPNET\bin\roslyn\csi.rsp
+C:\ASP.NET\ASP.NET\ChuyenDeASPNET\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\ASP.NET\ASP.NET\ChuyenDeASPNET\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\ASP.NET\ASP.NET\ChuyenDeASPNET\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\ASP.NET\ASP.NET\ChuyenDeASPNET\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\ASP.NET\ASP.NET\ChuyenDeASPNET\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\ASP.NET\ASP.NET\ChuyenDeASPNET\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\ASP.NET\ASP.NET\ChuyenDeASPNET\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\ASP.NET\ASP.NET\ChuyenDeASPNET\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\ASP.NET\ASP.NET\ChuyenDeASPNET\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\ASP.NET\ASP.NET\ChuyenDeASPNET\bin\roslyn\Microsoft.Managed.Core.targets
+C:\ASP.NET\ASP.NET\ChuyenDeASPNET\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\ASP.NET\ASP.NET\ChuyenDeASPNET\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\ASP.NET\ASP.NET\ChuyenDeASPNET\bin\roslyn\System.AppContext.dll
+C:\ASP.NET\ASP.NET\ChuyenDeASPNET\bin\roslyn\System.Collections.Immutable.dll
+C:\ASP.NET\ASP.NET\ChuyenDeASPNET\bin\roslyn\System.Console.dll
+C:\ASP.NET\ASP.NET\ChuyenDeASPNET\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+C:\ASP.NET\ASP.NET\ChuyenDeASPNET\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\ASP.NET\ASP.NET\ChuyenDeASPNET\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\ASP.NET\ASP.NET\ChuyenDeASPNET\bin\roslyn\System.Globalization.Calendars.dll
+C:\ASP.NET\ASP.NET\ChuyenDeASPNET\bin\roslyn\System.IO.Compression.dll
+C:\ASP.NET\ASP.NET\ChuyenDeASPNET\bin\roslyn\System.IO.Compression.ZipFile.dll
+C:\ASP.NET\ASP.NET\ChuyenDeASPNET\bin\roslyn\System.IO.FileSystem.dll
+C:\ASP.NET\ASP.NET\ChuyenDeASPNET\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\ASP.NET\ASP.NET\ChuyenDeASPNET\bin\roslyn\System.Net.Http.dll
+C:\ASP.NET\ASP.NET\ChuyenDeASPNET\bin\roslyn\System.Net.Sockets.dll
+C:\ASP.NET\ASP.NET\ChuyenDeASPNET\bin\roslyn\System.Reflection.Metadata.dll
+C:\ASP.NET\ASP.NET\ChuyenDeASPNET\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\ASP.NET\ASP.NET\ChuyenDeASPNET\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\ASP.NET\ASP.NET\ChuyenDeASPNET\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\ASP.NET\ASP.NET\ChuyenDeASPNET\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\ASP.NET\ASP.NET\ChuyenDeASPNET\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\ASP.NET\ASP.NET\ChuyenDeASPNET\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\ASP.NET\ASP.NET\ChuyenDeASPNET\bin\roslyn\System.Threading.Tasks.Extensions.dll
+C:\ASP.NET\ASP.NET\ChuyenDeASPNET\bin\roslyn\System.ValueTuple.dll
+C:\ASP.NET\ASP.NET\ChuyenDeASPNET\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\ASP.NET\ASP.NET\ChuyenDeASPNET\bin\roslyn\System.Xml.XmlDocument.dll
+C:\ASP.NET\ASP.NET\ChuyenDeASPNET\bin\roslyn\System.Xml.XPath.dll
+C:\ASP.NET\ASP.NET\ChuyenDeASPNET\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\ASP.NET\ASP.NET\ChuyenDeASPNET\bin\roslyn\vbc.exe
+C:\ASP.NET\ASP.NET\ChuyenDeASPNET\bin\roslyn\vbc.exe.config
+C:\ASP.NET\ASP.NET\ChuyenDeASPNET\bin\roslyn\vbc.rsp
+C:\ASP.NET\ASP.NET\ChuyenDeASPNET\bin\roslyn\VBCSCompiler.exe
+C:\ASP.NET\ASP.NET\ChuyenDeASPNET\bin\roslyn\VBCSCompiler.exe.config
+C:\ASP.NET\ASP.NET\ChuyenDeASPNET\bin\Antlr3.Runtime.dll
+C:\ASP.NET\ASP.NET\ChuyenDeASPNET\bin\EntityFramework.dll
+C:\ASP.NET\ASP.NET\ChuyenDeASPNET\bin\EntityFramework.SqlServer.dll
+C:\ASP.NET\ASP.NET\ChuyenDeASPNET\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\ASP.NET\ASP.NET\ChuyenDeASPNET\bin\Microsoft.Web.Infrastructure.dll
+C:\ASP.NET\ASP.NET\ChuyenDeASPNET\bin\Newtonsoft.Json.dll
+C:\ASP.NET\ASP.NET\ChuyenDeASPNET\bin\System.Web.Helpers.dll
+C:\ASP.NET\ASP.NET\ChuyenDeASPNET\bin\System.Web.Mvc.dll
+C:\ASP.NET\ASP.NET\ChuyenDeASPNET\bin\System.Web.Optimization.dll
+C:\ASP.NET\ASP.NET\ChuyenDeASPNET\bin\System.Web.Razor.dll
+C:\ASP.NET\ASP.NET\ChuyenDeASPNET\bin\System.Web.WebPages.Deployment.dll
+C:\ASP.NET\ASP.NET\ChuyenDeASPNET\bin\System.Web.WebPages.dll
+C:\ASP.NET\ASP.NET\ChuyenDeASPNET\bin\System.Web.WebPages.Razor.dll
+C:\ASP.NET\ASP.NET\ChuyenDeASPNET\bin\WebGrease.dll
+C:\ASP.NET\ASP.NET\ChuyenDeASPNET\bin\EntityFramework.xml
+C:\ASP.NET\ASP.NET\ChuyenDeASPNET\bin\EntityFramework.SqlServer.xml
+C:\ASP.NET\ASP.NET\ChuyenDeASPNET\bin\System.Web.Helpers.xml
+C:\ASP.NET\ASP.NET\ChuyenDeASPNET\bin\System.Web.Mvc.xml
+C:\ASP.NET\ASP.NET\ChuyenDeASPNET\bin\System.Web.Optimization.xml
+C:\ASP.NET\ASP.NET\ChuyenDeASPNET\bin\System.Web.Razor.xml
+C:\ASP.NET\ASP.NET\ChuyenDeASPNET\bin\System.Web.WebPages.xml
+C:\ASP.NET\ASP.NET\ChuyenDeASPNET\bin\System.Web.WebPages.Deployment.xml
+C:\ASP.NET\ASP.NET\ChuyenDeASPNET\bin\System.Web.WebPages.Razor.xml
+C:\ASP.NET\ASP.NET\ChuyenDeASPNET\bin\Newtonsoft.Json.xml
+C:\ASP.NET\ASP.NET\ChuyenDeASPNET\bin\Antlr3.Runtime.pdb
+C:\ASP.NET\ASP.NET\ChuyenDeASPNET\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\ASP.NET\ASP.NET\ChuyenDeASPNET\obj\Debug\ChuyenDeASPNET.csproj.AssemblyReference.cache
+C:\ASP.NET\ASP.NET\ChuyenDeASPNET\obj\Debug\ChuyenDeASPNET.csproj.CoreCompileInputs.cache
+C:\ASP.NET\ASP.NET\ChuyenDeASPNET\obj\Debug\ChuyenDe.68C5C61A.Up2Date
+C:\ASP.NET\ASP.NET\ChuyenDeASPNET\obj\Debug\ChuyenDeASPNET.dll
+C:\ASP.NET\ASP.NET\ChuyenDeASPNET\obj\Debug\ChuyenDeASPNET.pdb
