@@ -1,4 +1,5 @@
 ﻿using ChuyenDeASPNET.Context;
+using PagedList;
 using System;
 using System.Collections.Generic;
 using System.Data.Entity;
@@ -7,22 +8,56 @@ using System.Linq;
 using System.Web;
 using System.Web.Mvc;
 
+
 namespace ChuyenDeASPNET.Areas.Admin.Controllers
 {
     public class ProductController : Controller
     {
         // GET: Admin/Product
-        ASPNETEntities objASPNETEntities = new ASPNETEntities();
-        public ActionResult Index()
+        ASPEntities objASPEntities = new ASPEntities();
+        public ActionResult Index(string currentFilter, string SearchString, int? page)
         {
-            var lstProduct = objASPNETEntities.Products.ToList();
-            return View(lstProduct);
+            var lstProduct = new List<Product>();
+
+            if (SearchString != null)
+            {
+                page = 1;
+            }
+            else
+            {
+                SearchString = currentFilter;
+            }
+
+            if (!string.IsNullOrEmpty(SearchString))
+            {
+                // Lấy danh sách sản phẩm theo từ khóa tìm kiếm
+                lstProduct = objASPEntities.Products
+                                    .Where(n => n.ProductName.Contains(SearchString))
+                                    .ToList();
+            }
+            else
+            {
+                // Lấy tất cả sản phẩm trong bảng Products
+                lstProduct = objASPEntities.Products.ToList();
+            }
+
+            ViewBag.CurrentFilter = SearchString;
+
+            // Số lượng item của 1 trang = 4
+            int pageSize = 4;
+            int pageNumber = (page ?? 1);
+
+            // Sắp xếp theo ID sản phẩm, sản phẩm mới đưa lên đầu
+            lstProduct = lstProduct.OrderByDescending(n => n.ProductID).ToList();
+
+            return View(lstProduct.ToPagedList(pageNumber, pageSize));
         }
+
         [HttpGet]
         public ActionResult Create()
         {
-            ViewBag.CategoryID = new SelectList(objASPNETEntities.Categories, "CategoryID", "CategoryName");
-            ViewBag.BrandID = new SelectList(objASPNETEntities.Brands, "BrandID", "BrandName");
+            ViewBag.CategoryID = new SelectList(objASPEntities.Categories, "CategoryID", "CategoryName");
+            ViewBag.BrandID = new SelectList(objASPEntities.Brands, "BrandID", "BrandName");
             return View();
         }
         [HttpPost]
@@ -42,13 +77,13 @@ namespace ChuyenDeASPNET.Areas.Admin.Controllers
                     product.ProductImage = fileName;
                 }
 
-                objASPNETEntities.Products.Add(product);
-                objASPNETEntities.SaveChanges();
+                objASPEntities.Products.Add(product);
+                objASPEntities.SaveChanges();
                 return RedirectToAction("Index");
             }
 
-            ViewBag.CategoryID = new SelectList(objASPNETEntities.Categories, "CategoryID", "CategoryName", product.CategoryID);
-            ViewBag.BrandID = new SelectList(objASPNETEntities.Brands, "BrandID", "BrandName", product.BrandID);
+            ViewBag.CategoryID = new SelectList(objASPEntities.Categories, "CategoryID", "CategoryName", product.CategoryID);
+            ViewBag.BrandID = new SelectList(objASPEntities.Brands, "BrandID", "BrandName", product.BrandID);
 
             return View(product);
         }
@@ -59,11 +94,11 @@ namespace ChuyenDeASPNET.Areas.Admin.Controllers
         {
             if (id == null) return HttpNotFound();
 
-            var product = objASPNETEntities.Products.Find(id);
+            var product = objASPEntities.Products.Find(id);
             if (product == null) return HttpNotFound();
 
-            ViewBag.CategoryID = new SelectList(objASPNETEntities.Categories, "CategoryID", "CategoryName", product.CategoryID);
-            ViewBag.BrandID = new SelectList(objASPNETEntities.Brands, "BrandID", "BrandName", product.BrandID);
+            ViewBag.CategoryID = new SelectList(objASPEntities.Categories, "CategoryID", "CategoryName", product.CategoryID);
+            ViewBag.BrandID = new SelectList(objASPEntities.Brands, "BrandID", "BrandName", product.BrandID);
             return View(product);
         }
 
@@ -93,8 +128,8 @@ namespace ChuyenDeASPNET.Areas.Admin.Controllers
                     product.ProductImage = fileName;
                 }
 
-                objASPNETEntities.Entry(product).State = EntityState.Modified;
-                objASPNETEntities.SaveChanges();
+                objASPEntities.Entry(product).State = EntityState.Modified;
+                objASPEntities.SaveChanges();
                 return RedirectToAction("Index");
             }
 
@@ -106,7 +141,7 @@ namespace ChuyenDeASPNET.Areas.Admin.Controllers
         {
             if (id == null) return HttpNotFound();
 
-            var product = objASPNETEntities.Products.Find(id);
+            var product = objASPEntities.Products.Find(id);
             if (product == null) return HttpNotFound();
 
             return View(product);
@@ -115,11 +150,11 @@ namespace ChuyenDeASPNET.Areas.Admin.Controllers
         [HttpPost, ActionName("Delete")]
         public ActionResult ConfirmDelete(int id)
         {
-            var product = objASPNETEntities.Products.Find(id);
+            var product = objASPEntities.Products.Find(id);
             if (product == null) return HttpNotFound();
 
-            objASPNETEntities.Products.Remove(product);
-            objASPNETEntities.SaveChanges();
+            objASPEntities.Products.Remove(product);
+            objASPEntities.SaveChanges();
             return RedirectToAction("Index");
         }
 
@@ -128,7 +163,7 @@ namespace ChuyenDeASPNET.Areas.Admin.Controllers
         {
             if (id == null) return HttpNotFound();
 
-            var product = objASPNETEntities.Products.Find(id);
+            var product = objASPEntities.Products.Find(id);
             if (product == null) return HttpNotFound();
 
             return View(product);

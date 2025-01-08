@@ -1,0 +1,30 @@
+﻿@model List<ChuyenDeASPNET.Models.ProductModel>
+
+<div class="container">
+
+    @if (Model != null && Model.Any())
+    {
+        <div class="row">
+            @foreach (var product in Model)
+            {
+                <div class="col-xl-3 col-lg-3 col-md-6 col-sm-12 mb-4">
+                    <div class="card card-sm card-product-grid h-100">
+                        <a href="@Url.Action("ProductDetail", "Product", new { id = product.ProductID })" class="img-wrap">
+                            <img src="~/Content/images/items/@product.ProductImage" alt="@product.ProductName">
+                        </a>
+                        <figcaption class="info-wrap">
+                            <a href="@Url.Action("ProductDetail", "Product", new { id = product.ProductID })" class="title">@product.ProductName</a>
+                            <div class="price mt-1">
+                                @product.Price.ToString("C0", System.Globalization.CultureInfo.CreateSpecificCulture("vi-VN"))
+                            </div> <!-- price-wrap.// -->
+                        </figcaption>
+                    </div>
+                </div> <!-- col.// -->
+            }
+        </div>
+    }
+    else
+    {
+        <p>No products found for the search term.</p>
+    }
+</div>

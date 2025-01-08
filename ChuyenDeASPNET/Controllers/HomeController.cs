@@ -13,13 +13,13 @@ namespace ChuyenDeASPNET.Controllers
 {
     public class HomeController : Controller
     {
-        ASPNETEntities objASPNETEntities = new ASPNETEntities();
+        ASPEntities objASPEntities = new ASPEntities();
         public ActionResult Index()
         {
             HomeModel objHomeModel = new HomeModel();
             // Lấy danh sách sản phẩm và danh mục từ cơ sở dữ liệu
-            objHomeModel.ListProduct = objASPNETEntities.Products.ToList();
-            objHomeModel.ListCategory = objASPNETEntities.Categories.ToList();
+            objHomeModel.ListProduct = objASPEntities.Products.ToList();
+            objHomeModel.ListCategory = objASPEntities.Categories.ToList();
 
             return View(objHomeModel);
         }
@@ -35,13 +35,13 @@ namespace ChuyenDeASPNET.Controllers
         {
             if (ModelState.IsValid)
             {
-                var check = objASPNETEntities.Users.FirstOrDefault(s => s.Email == _user.Email);
+                var check = objASPEntities.Users.FirstOrDefault(s => s.Email == _user.Email);
                 if (check == null)
                 {
                     _user.Password = GetMD5(_user.Password);
-                    objASPNETEntities.Configuration.ValidateOnSaveEnabled = false;
-                    objASPNETEntities.Users.Add(_user);
-                    objASPNETEntities.SaveChanges();
+                    objASPEntities.Configuration.ValidateOnSaveEnabled = false;
+                    objASPEntities.Users.Add(_user);
+                    objASPEntities.SaveChanges();
                     return RedirectToAction("Index");
                 }
                 else
@@ -87,7 +87,7 @@ namespace ChuyenDeASPNET.Controllers
 
 
                 var f_password = GetMD5(password);
-                var data = objASPNETEntities.Users.Where(s => s.Email.Equals(email) && s.Password.Equals(f_password)).ToList();
+                var data = objASPEntities.Users.Where(s => s.Email.Equals(email) && s.Password.Equals(f_password)).ToList();
                 if (data.Count() > 0)
                 {
                     //add session

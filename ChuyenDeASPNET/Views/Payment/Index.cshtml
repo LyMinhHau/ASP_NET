@@ -1,0 +1,21 @@
+﻿@{
+    ViewBag.Title = "Thanh toán thành công";
+}
+
+<div class="container text-center my-5">
+    <!-- Biểu tượng dấu tích thành công -->
+    <div class="icon-container">
+        <i class="fa fa-check-circle fa-5x text-success"></i>
+    </div>
+
+    <h2 class="text-success">Thanh toán thành công!</h2>
+    <p>Cảm ơn bạn đã mua sắm tại cửa hàng của chúng tôi.</p>
+    <p>Đơn hàng của bạn đã được xử lý và sẽ được gửi đến bạn trong thời gian sớm nhất.</p>
+
+    <a href="@Url.Action("Index", "Home")" class="btn btn-primary">Tiếp tục mua hàng</a>
+</div>
+
+<!-- Bao gồm thư viện Font Awesome nếu chưa có -->
+@section Scripts {
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+}

@@ -1,6 +1,7 @@
 ﻿<!DOCTYPE html>
 <html>
 <head>
+
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>@ViewBag.Title - My ASP.NET Application</title>
@@ -30,44 +31,69 @@
 <body>
 
     <!-- ========================= Header  ========================= -->
-    <header class="section-header">
-        <section class="header-main border-bottom">
+
+
+    <header class="section-header" style="background-color: #FFFFFF; margin-bottom: 0;">
+        <section class="header-main border-bottom" style="background-color: #FFFFFF; margin-bottom: 0; ">
             <div class="container">
                 <div class="row align-items-center">
                     <div class="col-xl-2 col-lg-3 col-md-12">
                         <a href="@Url.Action("Index", "Home")" class="brand-wrap">
-                            <img class="logo" src="~/Content/images/logo.png">
+                            <img class="logo" src="~/Content/images/logo2.jpg" style="transform: scale(2.5); transition: transform 0.4s ease;">
                         </a> <!-- brand-wrap.// -->
                     </div>
-                    <div class="col-xl-6 col-lg-5 col-md-6">
-                        <form action="#" class="search-header">
-                            <div class="input-group w-100">
-                                <select class="custom-select border-right" name="category_name">
-                                    <option value="">All type</option>
-                                    <option value="codex">Special</option>
-                                    <option value="comments">Only best</option>
-                                    <option value="content">Latest</option>
-                                </select>
-                                <input type="text" class="form-control" placeholder="Search">
 
-                                <div class="input-group-append">
-                                    <button class="btn btn-primary" type="submit">
-                                        <i class="fa fa-search"></i> Search
-                                    </button>
-                                </div>
+
+
+
+                    <form action="/Product/Search" method="get" class="search-header">
+                        <div class="input-group w-100">
+                            <input type="text" name="searchTerm" class="form-control" placeholder="Search">
+
+                            <div class="input-group-append">
+                                <button class="btn btn-primary" type="submit">
+                                    <i class="fa fa-search"></i> TÌm kiếm 
+                                </button>
                             </div>
-                        </form> <!-- search-wrap .end// -->
-                    </div> <!-- col.// -->
+                        </div>
+                    </form>
+
+
+
+
+
+
                     <div class="col-xl-4 col-lg-4 col-md-6">
                         <div class="widgets-wrap float-md-right">
                             <div class="widget-header mr-3">
-                                <a href= "@Url.Action("ProfileMain", "Profile")" class="widget-view">
-                                    <div class="icon-area">
-                                        <i class="fa fa-user"></i>
-                                        <span class="notify">3</span>
-                                    </div>
-                                    <small class="text"> My profile </small>
-                                </a>
+                                @if (Session["idUser"] != null)
+                                {
+                                    <ul style="list-style-type: none; padding-left: 0;">
+                                        <li><a href="~/Home/Logout" class="btn btn-warning">Đăng xuất</a></li>
+                                    </ul>
+                                }
+                                else
+                                {
+                                    <ul style="list-style-type: none; padding-left: 0; display: flex; gap: 10px;">
+                                        <li>
+                                            <a href="~/Home/Register"
+                                               style="text-decoration: none; background-color: #007bff; color: white; padding: 10px 20px; border-radius: 5px; display: inline-block; box-shadow: 0 4px #0056b3; transition: all 0.2s ease-in-out; transform: translateY(0);"
+                                               onmouseover="this.style.transform='translateY(-2px)'; this.style.boxShadow='0 6px #003d80';"
+                                               onmouseout="this.style.transform='translateY(0)'; this.style.boxShadow='0 4px #0056b3';">
+                                                Đăng ký
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="~/Home/Login"
+                                               style="text-decoration: none; background-color: #28a745; color: white; padding: 10px 20px; border-radius: 5px; display: inline-block; box-shadow: 0 4px #1c7430; transition: all 0.2s ease-in-out; transform: translateY(0);"
+                                               onmouseover="this.style.transform='translateY(-2px)'; this.style.boxShadow='0 6px #145622';"
+                                               onmouseout="this.style.transform='translateY(0)'; this.style.boxShadow='0 4px #1c7430';">
+                                                Đăng nhập
+                                            </a>
+                                        </li>
+                                    </ul>
+
+                                }
                             </div>
                             <div class="widget-header mr-3">
                                 <a href="#" class="widget-view">
@@ -75,7 +101,7 @@
                                         <i class="fa fa-comment-dots"></i>
                                         <span class="notify">1</span>
                                     </div>
-                                    <small class="text"> Message </small>
+                                    <small class="text"> Tin nhắn </small>
                                 </a>
                             </div>
                             <div class="widget-header mr-3">
@@ -90,6 +116,7 @@
                                 <a href="@Url.Action("Cart", "Shopping")" class="widget-view">
                                     <div class="icon-area">
                                         <i class="fa fa-shopping-cart"></i>
+                                        <span class="notify" id="CartCount">@Session["count"]</span>
                                     </div>
                                     <small class="text"> Cart </small>
                                 </a>
@@ -99,144 +126,129 @@
                 </div> <!-- row.// -->
             </div> <!-- container.// -->
         </section> <!-- header-main .// -->
+    </header>
 
+    <nav class="navbar navbar-main navbar-expand-lg border-bottom" style="background-color: #EA2F38; margin-top: 0;">
+        <div class="container">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#main_nav" aria-controls="main_nav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
 
-        <nav class="navbar navbar-main navbar-expand-lg border-bottom">
-            <div class="container">
+            <div class="collapse navbar-collapse" id="main_nav">
+                <ul class="navbar-nav" style="color: white;">
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" style="color: white;">
+                            <i class="fa fa-bars text-muted mr-2"></i> Danh mục
+                        </a>
+                        <div class="dropdown-menu">
+                            <a class="dropdown-item" href="#" style="color: #12253B;">Máy móc</a>
+                        </div>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#" style="color: white;">Sẵn sàng vận chuyển</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#" style="color: white;">Hội chợ thương mại</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#" style="color: white;">Dịch vụ</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#" style="color: white;">Bán cùng chúng tôi</a>
+                    </li>
 
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#main_nav" aria-controls="main_nav" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-
-                <div class="collapse navbar-collapse" id="main_nav">
-                    <ul class="navbar-nav">
-                        <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#"> <i class="fa fa-bars text-muted mr-2"></i> Categories </a>
-                            <div class="dropdown-menu">
-                                <a class="dropdown-item" href="#">Machinery</a>
-                                <a class="dropdown-item" href="#">Electronics</a>
-                                <a class="dropdown-item" href="#">Home textile</a>
-                                <a class="dropdown-item" href="#">Home and kitchen</a>
-                                <a class="dropdown-item" href="#">Service and equipment</a>
-                                <a class="dropdown-item" href="#">Healthcare items</a>
-                                <a class="dropdown-item" href="#">Toys and Hobbies</a>
-                            </div>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Ready to ship</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Trade shows</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Services</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Sell with us</a>
-                        </li>
-                        <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#">Demo pages</a>
-                            <div class="dropdown-menu">
-                                <a class="dropdown-item" href="page-index.html">Main</a>
-                                <a class="dropdown-item" href="page-category.html">All category</a>
-                                <a class="dropdown-item" href="page-listing-large.html">Listing list</a>
-                                <a class="dropdown-item" href="page-listing-grid.html">Listing grid</a>
-                                <a class="dropdown-item" href="page-shopping-cart.html">Shopping cart</a>
-                                <a class="dropdown-item" href="page-detail-product.html">Item detail</a>
-                                <a class="dropdown-item" href="page-content.html">Info content</a>
-                                <a class="dropdown-item" href="page-user-login.html">Page login</a>
-                                <a class="dropdown-item" href="page-user-register.html">Page register</a>
-                                <a class="dropdown-item disabled text-muted" href="#">More components</a>
-                            </div>
-                        </li>
-                    </ul>
-                    <ul class="navbar-nav ml-md-auto">
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Get the app</a>
-                        </li>
-                        <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" href="http://example.com" data-toggle="dropdown">English</a>
-                            <div class="dropdown-menu dropdown-menu-right">
-                                <a class="dropdown-item" href="#">Russian</a>
-                                <a class="dropdown-item" href="#">French</a>
-                                <a class="dropdown-item" href="#">Spanish</a>
-                                <a class="dropdown-item" href="#">Chinese</a>
-                            </div>
-                        </li>
-                    </ul>
-                </div> <!-- collapse .// -->
-            </div> <!-- container .// -->
-        </nav>
-    </header> <!-- section-header.// -->
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" style="color: white;">Demo pages</a>
+                        <div class="dropdown-menu">
+                            <a class="dropdown-item" href="page-index.html" style="color: #12253B;">Main</a>
+                            <a class="dropdown-item" href="page-category.html" style="color: #12253B;">All category</a>
+                            <a class="dropdown-item" href="page-listing-large.html" style="color: #12253B;">Listing list</a>
+                            <a class="dropdown-item" href="page-listing-grid.html" style="color: #12253B;">Listing grid</a>
+                            <a class="dropdown-item" href="page-shopping-cart.html" style="color: #12253B;">Shopping cart</a>
+                            <a class="dropdown-item" href="page-detail-product.html" style="color: #12253B;">Item detail</a>
+                            <a class="dropdown-item" href="page-content.html" style="color: #12253B;">Info content</a>
+                            <a class="dropdown-item" href="page-user-login.html" style="color: #12253B;">Page login</a>
+                            <a class="dropdown-item" href="page-user-register.html" style="color: #12253B;">Page register</a>
+                            <a class="dropdown-item disabled text-muted" href="#" style="color: gray;">More components</a>
+                        </div> Cart
+                    </li>
+                </ul>
+            </div> <!-- collapse .// -->
+        </div> <!-- container .// -->
+    </nav>
     <!-- ========================= Header End ========================= -->
+
     <div class="container body-content">
         @RenderBody()
     </div>
 
     <!-- ========================= Footer  ========================= -->
-    <footer class="section-footer bg-secondary">
-        <div class="container">
-            <section class="footer-top padding-y-lg text-white">
-                <div class="row">
-                    <aside class="col-md col-6">
-                        <h6 class="title">Brands</h6>
-                        <ul class="list-unstyled">
-                            <li> <a href="#">Adidas</a></li>
-                            <li> <a href="#">Puma</a></li>
-                            <li> <a href="#">Reebok</a></li>
-                            <li> <a href="#">Nike</a></li>
-                        </ul>
-                    </aside>
-                    <aside class="col-md col-6">
-                        <h6 class="title">Company</h6>
-                        <ul class="list-unstyled">
-                            <li> <a href="#">About us</a></li>
-                            <li> <a href="#">Career</a></li>
-                            <li> <a href="#">Find a store</a></li>
-                            <li> <a href="#">Rules and terms</a></li>
-                            <li> <a href="#">Sitemap</a></li>
-                        </ul>
-                    </aside>
-                    <aside class="col-md col-6">
-                        <h6 class="title">Help</h6>
-                        <ul class="list-unstyled">
-                            <li> <a href="#">Contact us</a></li>
-                            <li> <a href="#">Money refund</a></li>
-                            <li> <a href="#">Order status</a></li>
-                            <li> <a href="#">Shipping info</a></li>
-                            <li> <a href="#">Open dispute</a></li>
-                        </ul>
-                    </aside>
-                    <aside class="col-md col-6">
-                        <h6 class="title">Account</h6>
-                        <ul class="list-unstyled">
-                            <li> <a href="@Url.Action("Login", "Home")"> User Login </a></li>
-                            <li> <a href="@Url.Action("Register", "Home")"> User register </a></li>
-                            <li> <a href="#"> Account Setting </a></li>
-                            <li> <a href="#"> My Orders </a></li>
-                        </ul>
-                    </aside>
-                    <aside class="col-md">
-                        <h6 class="title">Social</h6>
-                        <ul class="list-unstyled">
-                            <li><a href="#"> <i class="fab fa-facebook"></i> Facebook </a></li>
-                            <li><a href="#"> <i class="fab fa-twitter"></i> Twitter </a></li>
-                            <li><a href="#"> <i class="fab fa-instagram"></i> Instagram </a></li>
-                            <li><a href="#"> <i class="fab fa-youtube"></i> Youtube </a></li>
-                        </ul>
-                    </aside>
-                </div> <!-- row.// -->
-            </section>	<!-- footer-top.// -->
+    <footer class="footer" style="background-color: #222; color: white; padding: 30px 0;">
+        <div class="owl-carousel" style="display: flex; overflow-x: scroll; gap: 10px; padding: 10px;">
+            <a href="#" class="gallery__photo" style="position: relative; display: inline-block; width: 250px; height: 150px;">
+                <img src="https://images.unsplash.com/photo-1587354246490-7e26e63fcaa1?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8dGhhaWxhbmR8ZW58MHwyfDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60" alt="" style="width: 100%; height: 100%; object-fit: cover;" />
+                <div class="gallery__fade" style="position: absolute; top: 0; bottom: 0; left: 0; right: 0; background: rgba(0, 0, 0, 0.5); display: flex; justify-content: center; align-items: center; opacity: 0; transition: opacity 0.3s;">
+                    <i class="gallery__icon" data-feather="instagram" style="color: white; font-size: 30px;"></i>
+                </div>
+            </a>
+            <a href="#" class="gallery__photo" style="position: relative; display: inline-block; width: 250px; height: 150px;">
+                <img src="https://images.unsplash.com/photo-1510872893374-80379d91fc92?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=880&q=80" alt="" style="width: 100%; height: 100%; object-fit: cover;" />
+                <div class="gallery__fade" style="position: absolute; top: 0; bottom: 0; left: 0; right: 0; background: rgba(0, 0, 0, 0.5); display: flex; justify-content: center; align-items: center; opacity: 0; transition: opacity 0.3s;">
+                    <i class="gallery__icon" data-feather="instagram" style="color: white; font-size: 30px;"></i>
+                </div>
+            </a>
+            <a href="#" class="gallery__photo" style="position: relative; display: inline-block; width: 250px; height: 150px;">
+                <img src="https://images.unsplash.com/photo-1590785204309-9888edf27ab7?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MjB8fHRoYWlsYW5kfGVufDB8MnwwfHw%3D&auto=format&fit=crop&w=500&q=60" alt="" style="width: 100%; height: 100%; object-fit: cover;" />
+                <div class="gallery__fade" style="position: absolute; top: 0; bottom: 0; left: 0; right: 0; background: rgba(0, 0, 0, 0.5); display: flex; justify-content: center; align-items: center; opacity: 0; transition: opacity 0.3s;">
+                    <i class="gallery__icon" data-feather="instagram" style="color: white; font-size: 30px;"></i>
+                </div>
+            </a>
+            <a href="#" class="gallery__photo" style="position: relative; display: inline-block; width: 250px; height: 150px;">
+                <img src="https://images.unsplash.com/photo-1507646227500-4d389b0012be?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=880&q=80" alt="" style="width: 100%; height: 100%; object-fit: cover;" />
+                <div class="gallery__fade" style="position: absolute; top: 0; bottom: 0; left: 0; right: 0; background: rgba(0, 0, 0, 0.5); display: flex; justify-content: center; align-items: center; opacity: 0; transition: opacity 0.3s;">
+                    <i class="gallery__icon" data-feather="instagram" style="color: white; font-size: 30px;"></i>
+                </div>
+            </a>
+            <a href="#" class="gallery__photo" style="position: relative; display: inline-block; width: 250px; height: 150px;">
+                <img src="https://images.unsplash.com/photo-1509395062183-67c5ad6faff9?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=880&q=80" alt="" style="width: 100%; height: 100%; object-fit: cover;" />
+                <div class="gallery__fade" style="position: absolute; top: 0; bottom: 0; left: 0; right: 0; background: rgba(0, 0, 0, 0.5); display: flex; justify-content: center; align-items: center; opacity: 0; transition: opacity 0.3s;">
+                    <i class="gallery__icon" data-feather="instagram" style="color: white; font-size: 30px;"></i>
+                </div>
+            </a>
+            <a href="#" class="gallery__photo" style="position: relative; display: inline-block; width: 250px; height: 150px;">
+                <img src="https://images.unsplash.com/photo-1541048162979-c9ca04d625d6?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8OHx8dGhhaWxhbmR8ZW58MHwyfDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60" alt="" style="width: 100%; height: 100%; object-fit: cover;" />
+                <div class="gallery__fade" style="position: absolute; top: 0; bottom: 0; left: 0; right: 0; background: rgba(0, 0, 0, 0.5); display: flex; justify-content: center; align-items: center; opacity: 0; transition: opacity 0.3s;">
+                    <i class="gallery__icon" data-feather="instagram" style="color: white; font-size: 30px;"></i>
+                </div>
+            </a>
+        </div>
 
-            <section class="footer-bottom text-center">
+        <div class="footer__redes" style="margin-top: 20px;">
+            <ul class="footer__redes-wrapper" style="display: flex; list-style: none; justify-content: center; gap: 20px;">
+                <li>
+                    <a href="https://www.facebook.com/giaynhatxachtaychinhhang?mibextid=ZbWKwL" class="footer__link" style="color: white; font-size: 18px; text-decoration: none;">
+                        <i class="fab fa-facebook-f" style="margin-right: 8px;"></i>
+                        Facebook
+                    </a>
+                </li>
 
-                <p class="text-white">Privacy Policy - Terms of Use - User Information Legal Enquiry Guide</p>
-                <p class="text-muted"> &copy 2019 Company name, All rights reserved </p>
-                <br>
-            </section>
-        </div><!-- //container -->
+
+                <li>
+                    <a href="https://www.youtube.com/Giaynhatchinhhang" class="footer__link" style="color: white; font-size: 18px; text-decoration: none;">
+                        <i class="fab fa-youtube" style="margin-right: 8px;"></i>
+                        YouTube
+                    </a>
+                </li>
+
+            </ul>
+        </div>
+        <div class="separador" style="border-top: 1px solid #444; margin: 20px 0;"></div>
+        <p class="footer__texto" style="text-align: center; font-size: 14px; color: #ccc;">Copyright MinhHau</p>
     </footer>
+
     <!-- ========================= Footer End ========================= -->
+
+
     @Scripts.Render("~/bundles/jquery")
     @Scripts.Render("~/bundles/bootstrap")
     @RenderSection("scripts", required: false)
